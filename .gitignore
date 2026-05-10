@@ -11,3 +11,6 @@ wheels/
 
 # mcdr logs
 logs/
+
+# mc server
+server/

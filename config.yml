@@ -9,7 +9,7 @@
 
 # The language that MCDR will use to display information
 # Examples: "en_us", "zh_cn", "zh_tw"
-language: en_us
+language: zh_cn
 
 
 # =========================================
@@ -28,7 +28,7 @@ working_directory: server
 # Example command for starting a Minecraft server:
 #   'java -Xms1G -Xmx2G -jar minecraft_server.jar nogui'                        (shell mode)
 #   ['java', '-Xms1G', '-Xmx2G', '-jar', 'minecraft_server.jar', 'nogui']       (exec mode)
-start_command: echo Hello world from MCDReforged
+start_command: ./run.sh
 
 
 # The handler to the specific way to parse the standard output text of the server and the correct command for server control
@@ -42,7 +42,7 @@ start_command: echo Hello world from MCDReforged
 #   bungeecord_handler , for Bungeecord server
 #   waterfall_handler  , for Waterfall server
 #   velocity_handler   , for Velocity server
-handler: vanilla_handler
+handler: forge_handler
 
 
 # The codec format to encode messages to stdin / decode messages from stdout of the server
@@ -60,10 +60,10 @@ decoding: utf8
 # Minecraft RCON setting
 # If enabled, plugins can use rcon to query commands from the server
 rcon:
-  enable: false
+  enable: true
   address: 127.0.0.1
   port: 25575
-  password: password
+  password: nopwd
 
 
 # =========================================
