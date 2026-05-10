@@ -1,9 +1,88 @@
-# Xmx and Xms set the maximum and minimum RAM usage, respectively.
-# They can take any number, followed by an M or a G.
-# M means Megabyte, G means Gigabyte.
-# For example, to set the maximum to 3GB: -Xmx3G
-# To set the minimum to 2.5GB: -Xms2500M
+# ============================================
+# Minecraft Server JVM 参数配置
+# GraalVM 25 + ZGC 优化
+# ============================================
 
-# A good default for a modded server is 4GB.
-# Uncomment the next line to set it.
-# -Xmx4G
+# === 内存配置 ===
+# 动态内存：最小 4GB，最大 12GB
+# ZGC 会在空闲时归还内存给系统
+-Xmx32G
+-Xms32G
+
+# === 大页面支持（需要系统配置） ===
+-XX:+UseLargePages
+-XX:LargePageSizeInBytes=2m
+
+# === 随机数生成器（避免启动阻塞） ===
+-Djava.security.egd=file:/dev/urandom
+
+# === ZGC 垃圾回收器配置 ===
+-XX:+UseZGC
+-XX:+ZGenerational
+-XX:-ZProactive
+-XX:ZCollectionInterval=5
+-XX:ZAllocationSpikeTolerance=2.0
+-XX:+ZUncommit
+-XX:ZUncommitDelay=60
+
+# === JVM 诊断与实验性功能 ===
+-XX:+UnlockExperimentalVMOptions
+-XX:+UnlockDiagnosticVMOptions
+
+# === 内存与性能基础 ===
+-XX:+AlwaysPreTouch
+-XX:+PerfDisableSharedMem
+-XX:+AlwaysActAsServerClassMachine
+-XX:SoftMaxHeapSize=8G
+
+# === JIT 编译器优化 ===
+-XX:-DontCompileHugeMethods
+-XX:MaxNodeLimit=240000
+-XX:NodeLimitFudgeFactor=8000
+-XX:NmethodSweepActivity=1
+-XX:+EagerJVMCI
+
+# === 代码缓存配置 ===
+-XX:ReservedCodeCacheSize=400M
+-XX:NonNMethodCodeHeapSize=12M
+-XX:ProfiledCodeHeapSize=194M
+-XX:NonProfiledCodeHeapSize=194M
+
+# === 线程优先级（需要 CAP_SYS_NICE） ===
+-XX:+UseCriticalJavaThreadPriority
+
+# === CPU 指令优化 ===
+-XX:AllocatePrefetchStyle=3
+-XX:+UseFastStosb
+-XX:+UseNewLongLShift
+-XX:+UseVectorCmov
+-XX:+UseXmmI2D
+-XX:+UseXmmI2F
+-XX:UseAVX=2
+-XX:UseSSE=4
+
+# === SIMD 向量化优化 ===
+-XX:+AlignVector
+-XX:+OptimizeFill
+-XX:+EnableVectorSupport
+-XX:+UseCharacterCompareIntrinsics
+-XX:+UseVectorStubs
+
+# === 字符串优化 ===
+-XX:+UseStringDeduplication
+
+# === GraalVM JIT 编译器配置 ===
+-Djdk.graal.CompilerConfiguration=enterprise
+-Djdk.graal.UsePriorityInlining=true
+-Djdk.graal.TuneInlinerExploration=1
+
+# === GraalVM 循环优化 ===
+-Djdk.graal.LoopInversion=true
+-Djdk.graal.LoopRotation=true
+-Djdk.graal.DetectInvertedLoopsAsCounted=true
+-Djdk.graal.EnterprisePartialUnroll=true
+
+# === GraalVM 向量化优化 ===
+-Djdk.graal.Vectorization=true
+-Djdk.graal.VectorizeSIMD=true
+-Djdk.graal.VectorizeHashes=true

@@ -1,0 +1,25 @@
+[Unit]
+Description=Minecraft Server
+After=network.target
+
+[Service]
+Type=forking
+
+ExecStartPre=-/usr/bin/tmux -L mc kill-session -t mc-session
+
+WorkingDirectory=%h/srv/mc/mc
+
+ExecStart=/usr/bin/tmux -L mc new-session -s mc-session -d 'uv run mcdreforged'
+
+ExecStop=/usr/bin/tmux -L mc send-keys -t mc-session "save-all" ENTER
+ExecStop=/usr/bin/sleep 5
+ExecStop=/usr/bin/tmux -L mc send-keys -t mc-session "stop" ENTER
+
+TimeoutStopSec=60
+KillMode=none
+
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target
