@@ -59,7 +59,7 @@
   "tropics_enabled": true,
   "tundra_enabled": true,
   "undergrowth_enabled": true,
-  "visceral_heap_enabled": true,
+  "visceral_heap_enabled": false,
   "volcanic_plains_enabled": true,
   "volcano_enabled": true,
   "wasteland_enabled": true,
