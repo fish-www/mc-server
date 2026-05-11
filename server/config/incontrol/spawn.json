@@ -1,0 +1,82 @@
+[
+    {
+        "dimension": "minecraft:overworld",
+        "height": "lt(-32)",
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:spider",
+            "minecraft:skeleton",
+            "minecraft:creeper",
+            "minecraft:enderman",
+            "minecraft:witch",
+            "minecraft:zombie_villager",
+            "minecraft:drowned",
+            "minecraft:husk",
+            "minecraft:stray",
+            "minecraft:bogged"
+        ],
+        "mincount": 10,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "height": "gt(-32)",
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:spider",
+            "minecraft:skeleton",
+            "minecraft:creeper",
+            "minecraft:enderman",
+            "minecraft:witch",
+            "minecraft:zombie_villager",
+            "minecraft:drowned",
+            "minecraft:husk",
+            "minecraft:stray",
+            "minecraft:bogged"
+        ],
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:the_nether",
+        "mob": "minecraft:zombified_piglin",
+        "mincount": 25,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:the_nether",
+        "mob": "minecraft:enderman",
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:the_end",
+        "mob": "minecraft:enderman",
+        "mincount": 15,
+        "result": "deny"
+    },
+    {
+        "mob": ["minecraft:phantom", "minecraft:bat"],
+        "result": "deny"
+    },
+    {
+        "mob": "touhou_little_maid:fairy",
+        "height": "gt(128)",
+        "mincount": 5,
+        "result": "deny"
+    },
+    {
+        "mob": "touhou_little_maid:fairy",
+        "height": "le(128)",
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:the_nether",
+        "mob": "minecraft:piglin",
+        "mincount": 15,
+        "result": "deny"
+    },
+    {
+        "mob": ["minecraft:cod", "minecraft:salmon"],
+        "mincount": 15,
+        "result": "deny"
+    }
+]
