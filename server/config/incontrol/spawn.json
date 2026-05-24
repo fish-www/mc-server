@@ -78,5 +78,31 @@
         "mob": ["minecraft:cod", "minecraft:salmon"],
         "mincount": 15,
         "result": "deny"
+    },
+    {
+        "mob": [
+            "minecraft:codcamel",
+            "minecraft:chicken",
+            "minecraft:donkey",
+            "minecraft:glow_squid",
+            "minecraft:horse",
+            "minecraft:mooshroom",
+            "minecraft:mule",
+            "minecraft:parrot",
+            "minecraft:pig",
+            "minecraft:rabbit",
+            "minecraft:sheep",
+            "minecraft:squid",
+            "minecraft:strider",
+            "minecraft:goat",
+            "minecraft:cat",
+            "minecraft:frog",
+            "minecraft:ocelot",
+            "minecraft:llama",
+            "minecraft:polar_bear",
+            "minecraft:wolf"
+        ],
+        "mincount": 15,
+        "result": "deny"
     }
 ]
