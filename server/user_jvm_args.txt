@@ -33,7 +33,7 @@
 -XX:+AlwaysPreTouch
 -XX:+PerfDisableSharedMem
 -XX:+AlwaysActAsServerClassMachine
--XX:SoftMaxHeapSize=8G
+-XX:SoftMaxHeapSize=24G
 
 # === JIT 编译器优化 ===
 -XX:-DontCompileHugeMethods
