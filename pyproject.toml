@@ -3,7 +3,7 @@ name = "mc"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.14"
 dependencies = [
     "mcdreforged>=2.15.7",
     "websockets>=16.0",
