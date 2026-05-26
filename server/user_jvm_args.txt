@@ -4,14 +4,17 @@
 # ============================================
 
 # === 内存配置 (必须 Xms = Xmx 以支持大页面与 PreTouch) ===
--Xmx54G
--Xms54G
+-Xmx36G
+-Xms36G
 -XX:+AlwaysPreTouch
 
 # timeout
--Dminecraft.api.auth.timeout=60
--Dsun.rmi.transport.connectionTimeout=120000
--Dnetty.timeOut=120
+# NeoForge 配置同步包最大大小（字节，默认 32768 = 32KB）
+-Dneoforge.config.maxConfigPacketSize=262144
+# NeoForge 配置同步超时（毫秒，默认 60000 = 60秒）
+-Dneoforge.config.syncTimeout=180000
+# Netty 原生读超时（秒），这个是真正有效的 Netty 超时
+-Dneoforge.network.readTimeout=180
 
 # === 硬件与架构优化 (NUMA & Large Pages) ===
 -XX:+UseNUMA
@@ -25,8 +28,12 @@
 # === 分代 ZGC 特化调优 ===
 -XX:+UseZGC
 -XX:ZAllocationSpikeTolerance=5
+-XX:SoftMaxHeapSize=28G
 -XX:+PerfDisableSharedMem
 -XX:+UseStringDeduplication
+
+# === GC 日志诊断（排查卡顿根因） ===
+-Xlog:gc*:file=logs/gc.log:time,level,tags:filecount=5,filesize=10M
 
 # === JIT 编译器基础优化 ===
 -XX:-DontCompileHugeMethods

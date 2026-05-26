@@ -14,3 +14,5 @@ logs/
 
 # mc server
 server/
+
+permission.yml
