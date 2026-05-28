@@ -1,88 +1,66 @@
 # ============================================
 # Minecraft Server JVM 参数配置
-# GraalVM 25 + ZGC 优化
+# GraalVM 25
 # ============================================
 
-# === 内存配置 ===
-# 动态内存：最小 4GB，最大 12GB
-# ZGC 会在空闲时归还内存给系统
--Xmx32G
--Xms32G
+# === 内存配置 (必须 Xms = Xmx 以支持大页面与 PreTouch) ===
+-Xmx54G
+-Xms54G
+-XX:+AlwaysPreTouch
 
-# === 大页面支持（需要系统配置） ===
+# timeout
+-Dminecraft.api.auth.timeout=60
+-Dsun.rmi.transport.connectionTimeout=120000
+-Dnetty.timeOut=120
+
+# === 硬件与架构优化 (NUMA & Large Pages) ===
+-XX:+UseNUMA
 -XX:+UseLargePages
 -XX:LargePageSizeInBytes=2m
-
-# === 随机数生成器（避免启动阻塞） ===
--Djava.security.egd=file:/dev/urandom
-
-# === ZGC 垃圾回收器配置 ===
--XX:+UseZGC
--XX:+ZGenerational
--XX:-ZProactive
--XX:ZCollectionInterval=5
--XX:ZAllocationSpikeTolerance=2.0
--XX:+ZUncommit
--XX:ZUncommitDelay=60
-
-# === JVM 诊断与实验性功能 ===
 -XX:+UnlockExperimentalVMOptions
 -XX:+UnlockDiagnosticVMOptions
-
-# === 内存与性能基础 ===
--XX:+AlwaysPreTouch
--XX:+PerfDisableSharedMem
+-XX:+UseCriticalJavaThreadPriority
 -XX:+AlwaysActAsServerClassMachine
--XX:SoftMaxHeapSize=24G
 
-# === JIT 编译器优化 ===
+# === 分代 ZGC 特化调优 ===
+-XX:+UseZGC
+-XX:ZAllocationSpikeTolerance=5
+-XX:+PerfDisableSharedMem
+-XX:+UseStringDeduplication
+
+# === JIT 编译器基础优化 ===
 -XX:-DontCompileHugeMethods
 -XX:MaxNodeLimit=240000
 -XX:NodeLimitFudgeFactor=8000
 -XX:NmethodSweepActivity=1
 -XX:+EagerJVMCI
 
-# === 代码缓存配置 ===
--XX:ReservedCodeCacheSize=400M
--XX:NonNMethodCodeHeapSize=12M
--XX:ProfiledCodeHeapSize=194M
--XX:NonProfiledCodeHeapSize=194M
+# === 代码缓存配置 (满足大模组服/高并发) ===
+-XX:ReservedCodeCacheSize=1024M
+-XX:NonNMethodCodeHeapSize=32M
+-XX:ProfiledCodeHeapSize=496M
+-XX:NonProfiledCodeHeapSize=496M
 
-# === 线程优先级（需要 CAP_SYS_NICE） ===
--XX:+UseCriticalJavaThreadPriority
-
-# === CPU 指令优化 ===
--XX:AllocatePrefetchStyle=3
--XX:+UseFastStosb
--XX:+UseNewLongLShift
--XX:+UseVectorCmov
--XX:+UseXmmI2D
--XX:+UseXmmI2F
--XX:UseAVX=2
--XX:UseSSE=4
-
-# === SIMD 向量化优化 ===
+# === 自动向量化与高级指令集 ===
 -XX:+AlignVector
 -XX:+OptimizeFill
 -XX:+EnableVectorSupport
 -XX:+UseCharacterCompareIntrinsics
 -XX:+UseVectorStubs
+-Djava.security.egd=file:/dev/urandom
 
-# === 字符串优化 ===
--XX:+UseStringDeduplication
-
-# === GraalVM JIT 编译器配置 ===
+# === GraalVM EE 编译器配置 ===
 -Djdk.graal.CompilerConfiguration=enterprise
 -Djdk.graal.UsePriorityInlining=true
--Djdk.graal.TuneInlinerExploration=1
+-Djdk.graal.TuneInlinerExploration=0
 
-# === GraalVM 循环优化 ===
+# === GraalVM 循环与内联深度优化 ===
 -Djdk.graal.LoopInversion=true
 -Djdk.graal.LoopRotation=true
 -Djdk.graal.DetectInvertedLoopsAsCounted=true
 -Djdk.graal.EnterprisePartialUnroll=true
 
-# === GraalVM 向量化优化 ===
+# === GraalVM SIMD 矢量化优化 ===
 -Djdk.graal.Vectorization=true
 -Djdk.graal.VectorizeSIMD=true
 -Djdk.graal.VectorizeHashes=true
