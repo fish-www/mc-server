@@ -15,4 +15,4 @@ if [ ! -x "$JAVA_BIN" ]; then
     exit 1
 fi
 
-exec "$JAVA_BIN" @user_jvm_args.txt @libraries/net/neoforged/neoforge/21.1.228/unix_args.txt nogui "$@"
+exec taskset -c 0-7,16-23 "$JAVA_BIN" @user_jvm_args.txt @libraries/net/neoforged/neoforge/21.1.228/unix_args.txt nogui "$@"
