@@ -1,0 +1,6 @@
+{
+    "item.golden_dandelion.golden_dandelion": "金蒲公英",
+    "text.golden_dandelion.frozen": "§e该幼年生物已停止生长§r",
+    "text.golden_dandelion.unfrozen": "§a该幼年生物恢复生长§r",
+    "text.golden_dandelion.not_baby": "§c只能对幼年生物使用金蒲公英§r"
+}
