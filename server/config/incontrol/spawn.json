@@ -59,13 +59,13 @@
     },
     {
         "mob": "touhou_little_maid:fairy",
-        "height": "gt(128)",
+        "height": "gt(320)",
         "mincount": 5,
         "result": "deny"
     },
     {
         "mob": "touhou_little_maid:fairy",
-        "height": "le(128)",
+        "height": "le(320)",
         "result": "deny"
     },
     {
