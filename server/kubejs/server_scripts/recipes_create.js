@@ -87,13 +87,28 @@ ServerEvents.recipes(event => {
         ]
     });
 
-    // 燧石，粉碎，产出 1 火药
+    // 燧石，粉碎，产出 1 火药，75% 
     event.custom({
         type: 'create:crushing',
         ingredients: [
             { item: 'minecraft:flint' }
         ],
         processing_time: 400,
+        results: [
+            {
+                chance: 0.75,
+                id: 'minecraft:gunpowder'
+            }
+        ]
+    });
+
+    // 燧石，研磨，产出 1 火药
+    event.custom({
+        type: 'create:crushing',
+        ingredients: [
+            { item: 'minecraft:flint' }
+        ],
+        processing_time: 125,
         results: [
             { id: 'minecraft:gunpowder' }
         ]
@@ -159,6 +174,21 @@ ServerEvents.recipes(event => {
             },
             {
                 chance: 0.25,
+                id: 'minecraft:blaze_powder'
+            }
+        ]
+    });
+
+    // 烈焰珍珠，研磨，产出 4 烈焰粉
+    event.custom({
+        type: 'create:milling',
+        ingredients: [
+            { item: 'kaleidoscope_nether:blaze_heart' }
+        ],
+        processing_time: 125,
+        results: [
+            {
+                count: 4,
                 id: 'minecraft:blaze_powder'
             }
         ]
