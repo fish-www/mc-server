@@ -248,4 +248,129 @@ ServerEvents.recipes(event => {
         ]
     );
 
+    // 烈焰人燃烧室，粉碎，产出 1 烈焰棒，3 烈焰粉，75% 额外一个烈焰粉，25% 额外一个烈焰粉，5% 一个铁板，5% 一个余烬面粉
+    event.custom({
+        type: 'create:crushing',
+        ingredients: [
+            { item: 'create:blaze_burner' }
+        ],
+        processing_time: 400,
+        results: [
+            {
+                id: 'minecraft:blaze_rod'
+            },
+            {
+                count: 3,
+                id: 'minecraft:blaze_powder'
+            },
+            {
+                chance: 0.75,
+                id: 'minecraft:blaze_powder'
+            },
+            {
+                chance: 0.25,
+                id: 'minecraft:blaze_powder'
+            },
+            {
+                chance: 0.05,
+                id: 'create:iron_sheet'
+            },
+            {
+                chance: 0.05,
+                id: 'create:cinder_flour'
+            },
+        ]
+    });
+
+    // 旋风人冷却室，粉碎，产出 1 旋风棒，3 风弹，75% 额外一个风弹，25% 额外一个风弹，5% 一个铁板，5% 一个锌粒
+    event.custom({
+        type: 'create:crushing',
+        ingredients: [
+            { item: 'createcraftedbeginning:breeze_cooler' }
+        ],
+        processing_time: 400,
+        results: [
+            {
+                id: 'minecraft:breeze_rod'
+            },
+            {
+                count: 3,
+                id: 'minecraft:wind_charge'
+            },
+            {
+                chance: 0.75,
+                id: 'minecraft:wind_charge'
+            },
+            {
+                chance: 0.25,
+                id: 'minecraft:wind_charge'
+            },
+            {
+                chance: 0.05,
+                id: 'create:iron_sheet'
+            },
+            {
+                chance: 0.05,
+                id: 'create:zinc_nugget'
+            },
+        ]
+    });
+
+    // 旋风人蓄风室，粉碎，产出 1 旋风棒，3 风弹，75% 额外一个风弹，25% 额外一个风弹，10% 一个铁板，5% 一个锌粒
+    event.custom({
+        type: 'create:crushing',
+        ingredients: [
+            { item: 'createcraftedbeginning:breeze_chamber' }
+        ],
+        processing_time: 400,
+        results: [
+            {
+                id: 'minecraft:breeze_rod'
+            },
+            {
+                count: 3,
+                id: 'minecraft:wind_charge'
+            },
+            {
+                chance: 0.75,
+                id: 'minecraft:wind_charge'
+            },
+            {
+                chance: 0.25,
+                id: 'minecraft:wind_charge'
+            },
+            {
+                chance: 0.10,
+                id: 'create:iron_sheet'
+            },
+            {
+                chance: 0.05,
+                id: 'create:zinc_nugget'
+            },
+        ]
+    });
+
+    // 1B 岩浆 + 10B 水，冲压，产出 64 个圆石
+    event.custom({
+        type: 'create:compacting',
+        ingredients: [
+            {
+                type: "neoforge:single",
+                "amount": 1000,
+                "fluid": "minecraft:lava"
+            },
+            {
+                type: "neoforge:single",
+                "amount": 10000,
+                "fluid": "minecraft:water"
+            }
+        ],
+        results: [
+            {
+                count: 64,
+                id: 'minecraft:cobblestone'
+            }
+        ]
+    });
+
 });
