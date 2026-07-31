@@ -373,4 +373,195 @@ ServerEvents.recipes(event => {
         ]
     });
 
+    // 修复气密板配方冲突
+    event.remove({ output: 'createcraftedbeginning:airtight_sheet' })
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: {
+            tag: "c:plates/iron"
+        },
+        loops: 1,
+        results: [
+            {
+                count: 2,
+                id: 'createcraftedbeginning:airtight_sheet'
+            }
+        ],
+        sequence: [
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "createcraftedbeginning:incomplete_airtight_sheet"
+                    },
+                    {
+                        tag: "c:slimeballs"
+                    }
+                ],
+                results: [
+                    {
+                        id: "createcraftedbeginning:incomplete_airtight_sheet"
+                    }
+                ]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "createcraftedbeginning:incomplete_airtight_sheet"
+                    },
+                    {
+                        tag: "c:plates/iron"
+                    }
+                ],
+                results: [
+                    {
+                        id: "createcraftedbeginning:incomplete_airtight_sheet"
+                    }
+                ]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "createcraftedbeginning:incomplete_airtight_sheet"
+                    },
+                    {
+                        tag: "c:dusts/crying_obsidian"
+                    }
+                ],
+                results: [
+                    {
+                        id: "createcraftedbeginning:incomplete_airtight_sheet"
+                    }
+                ]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "createcraftedbeginning:incomplete_airtight_sheet"
+                    },
+                    {
+                        item: "minecraft:dried_kelp"
+                    }
+                ],
+                results: [
+                    {
+                        id: "createcraftedbeginning:incomplete_airtight_sheet"
+                    }
+                ]
+            },
+            {
+                type: "create:pressing",
+                ingredients: [
+                    {
+                        item: "createcraftedbeginning:incomplete_airtight_sheet"
+                    }
+                ],
+                results: [
+                    {
+                        id: "createcraftedbeginning:incomplete_airtight_sheet"
+                    }
+                ]
+            },
+        ],
+        transitional_item: {
+            id: "createcraftedbeginning:incomplete_airtight_sheet"
+        }
+    });
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: { tag: "c:plates/iron" },
+        loops: 1,
+        results: [
+            {
+                count: 2,
+                id: 'createcraftedbeginning:airtight_sheet'
+            }
+        ],
+        sequence: [
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "createcraftedbeginning:incomplete_airtight_sheet"
+                    },
+                    {
+                        item: "create:super_glue"
+                    }
+                ],
+                results: [
+                    {
+                        id: "createcraftedbeginning:incomplete_airtight_sheet"
+                    }
+                ]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "createcraftedbeginning:incomplete_airtight_sheet"
+                    },
+                    {
+                        tag: "c:plates/iron"
+                    }
+                ],
+                results: [
+                    {
+                        id: "createcraftedbeginning:incomplete_airtight_sheet"
+                    }
+                ]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "createcraftedbeginning:incomplete_airtight_sheet"
+                    },
+                    {
+                        tag: "c:dusts/crying_obsidian"
+                    }
+                ],
+                results: [
+                    {
+                        id: "createcraftedbeginning:incomplete_airtight_sheet"
+                    }
+                ]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "createcraftedbeginning:incomplete_airtight_sheet"
+                    },
+                    {
+                        item: "minecraft:dried_kelp"
+                    }
+                ],
+                results: [
+                    {
+                        id: "createcraftedbeginning:incomplete_airtight_sheet"
+                    }
+                ]
+            },
+            {
+                type: "create:pressing",
+                ingredients: [
+                    {
+                        item: "createcraftedbeginning:incomplete_airtight_sheet"
+                    }
+                ],
+                results: [
+                    {
+                        id: "createcraftedbeginning:incomplete_airtight_sheet"
+                    }
+                ]
+            },
+        ],
+        transitional_item: {
+            id: "createcraftedbeginning:incomplete_airtight_sheet"
+        }
+    });
+
 });
