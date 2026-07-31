@@ -1,3 +1,14 @@
+// 将原版生肉加入 forge:raw_meats 标签
+ServerEvents.tags('item', event => {
+    event.add('forge:raw_meats', [
+        'minecraft:beef',
+        'minecraft:porkchop',
+        'minecraft:chicken',
+        'minecraft:mutton',
+        'minecraft:rabbit'
+    ]);
+});
+
 ServerEvents.recipes(event => {
     // 6 铁粒 + 1 圆石，冲压，加热，产出 1 绯红岩
     event.custom({
@@ -562,6 +573,60 @@ ServerEvents.recipes(event => {
         transitional_item: {
             id: "createcraftedbeginning:incomplete_airtight_sheet"
         }
+    });
+
+    // 肉冲压出鲜血
+    event.custom({
+        type: 'create:compacting',
+        ingredients: [
+            {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            }, {
+                tag: "forge:raw_meats"
+            },
+        ],
+        results: [
+            {
+                amount: 1000,
+                id: "kaleidoscope_bloodwine:blood"
+            }
+        ]
     });
 
 });
