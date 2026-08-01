@@ -4,8 +4,8 @@
 # ============================================
 
 # === 内存配置 (必须 Xms = Xmx 以支持大页面与 PreTouch) ===
--Xmx36G
--Xms36G
+-Xmx28G
+-Xms28G
 -XX:+AlwaysPreTouch
 
 # timeout
@@ -28,7 +28,7 @@
 # === 分代 ZGC 特化调优 ===
 -XX:+UseZGC
 -XX:ZAllocationSpikeTolerance=5
--XX:SoftMaxHeapSize=28G
+-XX:SoftMaxHeapSize=20G
 -XX:+PerfDisableSharedMem
 -XX:+UseStringDeduplication
 
