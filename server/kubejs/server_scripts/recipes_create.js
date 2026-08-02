@@ -158,7 +158,27 @@ ServerEvents.recipes(event => {
         ]
     });
 
-    // 肉块 2，4，6，8 位置配方合成 1 多孔肉块
+    // 多孔肉块，粉碎，产出 1 腐肉，25% 1 腐肉
+    event.custom({
+        type: 'create:crushing',
+        ingredients: [
+            { item: 'biomesoplenty:porous_flesh' }
+        ],
+        processing_time: 400,
+        results: [
+            {
+                count: 1,
+                id: 'minecraft:rotten_flesh'
+            },
+            {
+                chance: 0.25,
+                id: 'minecraft:rotten_flesh'
+            }
+        ]
+    });
+
+
+    // 肉块 2，4，6，8 位置配方合成 2 多孔肉块
     event.shaped(
         Item.of('biomesoplenty:porous_flesh', 2),
         [
@@ -168,6 +188,19 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'biomesoplenty:flesh'
+        }
+    )
+
+    // 4 多孔肉块，合成 4 肉块
+    event.shaped(
+        Item.of('biomesoplenty:flesh', 4),
+        [
+            'AA ',
+            'AA ',
+            '   '
+        ],
+        {
+            A: 'biomesoplenty:porous_flesh'
         }
     )
 
@@ -628,5 +661,155 @@ ServerEvents.recipes(event => {
             }
         ]
     });
+
+    // 方解石，缠魂，产出白垩岩
+    event.custom({
+        type: 'create:haunting',
+        ingredients: [
+            { item: 'minecraft:calcite' }
+        ],
+        results: [
+            {
+                id: 'natures_spirit:white_chalk'
+            }
+        ]
+    });
+
+    // 白垩岩，粉碎，产出 3 白垩岩粉 + 25% 1 白垩岩粉
+    event.custom({
+        type: 'create:crushing',
+        ingredients: [
+            { item: 'natures_spirit:white_chalk' }
+        ],
+        processing_time: 400,
+        results: [
+            {
+                count: 3,
+                id: 'natures_spirit:chalk_powder'
+            },
+            {
+                chance: 0.25,
+                id: 'natures_spirit:chalk_powder'
+            }
+        ]
+    });
+
+    // 1 烈焰粉 + 1B 岩浆，搅拌，产出 1B 硫磺火
+    event.custom({
+        type: 'create:mixing',
+        ingredients: [
+            {
+                "item": "minecraft:blaze_powder"
+            },
+            {
+                type: "neoforge:single",
+                "amount": 1000,
+                "fluid": "minecraft:lava"
+            }
+        ],
+        results: [
+            {
+                "amount": 1000,
+                "id": "createcraftedbeginning:brimstone"
+            }
+        ]
+    });
+
+    // 文文的相机，缠魂，产出魂符
+    event.custom({
+        type: 'create:haunting',
+        ingredients: [
+            { item: 'touhou_little_maid:camera' }
+        ],
+        results: [
+            {
+                id: 'touhou_little_maid:smart_slab_empty'
+            }
+        ]
+    });
+
+    // 肉块/多孔肉块，冲压，产出血
+    event.custom({
+        type: 'create:compacting',
+        ingredients: [
+            {
+                item: "biomesoplenty:flesh"
+            },
+            {
+                item: "biomesoplenty:flesh"
+            },
+            {
+                item: "biomesoplenty:flesh"
+            },
+            {
+                item: "biomesoplenty:flesh"
+            },
+        ],
+        results: [
+            {
+                amount: 500,
+                id: "biomesoplenty:blood"
+            }
+        ]
+    });
+    event.custom({
+        type: 'create:compacting',
+        ingredients: [
+            {
+                item: "biomesoplenty:porous_flesh"
+            },
+            {
+                item: "biomesoplenty:porous_flesh"
+            },
+            {
+                item: "biomesoplenty:porous_flesh"
+            },
+            {
+                item: "biomesoplenty:porous_flesh"
+            },
+        ],
+        results: [
+            {
+                amount: 250,
+                id: "biomesoplenty:blood"
+            }
+        ]
+    });
+
+    // 3 岩浆块 + 250mb 酸液，冲压，加热，产出 4 硫磺石
+    event.custom({
+        type: 'create:compacting',
+        heat_requirement: "heated",
+        ingredients: [
+            { item: 'minecraft:magma_block' },
+            { item: 'minecraft:magma_block' },
+            { item: 'minecraft:magma_block' },
+            {
+                type: "neoforge:single",
+                "amount": 250,
+                "fluid": "powergrid:acid"
+            },
+        ],
+        results: [
+            {
+                count: 4,
+                id: 'biomesoplenty:orpiment'
+            }
+        ]
+    });
+
+    // 8x 紫颂锭 + 物理手杖，有序合成，创造模式物理手杖
+    event.shaped(
+        Item.of('simulated:creative_physics_staff', 1),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: 'createcasing:chorium_ingot',
+            B: 'gravitation:physics_staff'
+        }
+    )
 
 });
