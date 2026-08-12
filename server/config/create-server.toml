@@ -427,7 +427,7 @@
 	#The total amount of stacks a vault can hold per block in size.
 	# Default: 20
 	# Range: 1 ~ 2048
-	vaultCapacity = 20
+	vaultCapacity = 100
 	#.
 	#The amount of packages a chain conveyor can carry at a time.
 	# Default: 20
