@@ -62,7 +62,7 @@ decoding: utf8
 rcon:
   enable: true
   address: 127.0.0.1
-  port: 25575
+  port: 24575
   password: nopwd
 
 
