@@ -812,4 +812,197 @@ ServerEvents.recipes(event => {
         }
     )
 
+    // 凋零骷髅头 + 白色染料 => 普通骷髅头颅
+    event.shapeless(
+        Item.of('minecraft:skeleton_skull'),
+        [
+            'minecraft:wither_skeleton_skull',
+            'minecraft:white_dye'
+        ]
+    );
+
+    // 普通骷髅头颅，序列装配：切割 -> 装龙肉 -> 注入龙血 -> 装龙牙x2 -> 装龙齿x4，产出 1 龙头
+    // 过渡物品为 kubejs:incomplete_dragon_head（见 startup_scripts/dragon_head.js）
+    // 机械手安装步骤生成器（龙牙/龙齿/龙肉各需多次部署）
+    const deployDragonStep = itemId => ({
+        type: "create:deploying",
+        ingredients: [
+            { item: "kubejs:incomplete_dragon_head" },
+            { item: itemId }
+        ],
+        results: [
+            { id: "kubejs:incomplete_dragon_head" }
+        ]
+    });
+    // 注意：Rhino 不支持数组展开语法（...），这里用 push 拼接
+    const dragonSteps = [];
+    dragonSteps.push(deployDragonStep('kaleidoscope_end:raw_ender_dragon_meat'));
+    dragonSteps.push({
+        type: "create:filling",
+        ingredients: [
+            { item: "kubejs:incomplete_dragon_head" },
+            {
+                "type": "neoforge:single",
+                "amount": 250,
+                "fluid": "kaleidoscope_dim_wine:dragon_blood"
+            }
+        ],
+        results: [
+            { id: "kubejs:incomplete_dragon_head" }
+        ]
+    });
+    for (let i = 0; i < 2; i++) dragonSteps.push(deployDragonStep('kaleidoscope_end:dragon_tooth'));
+    for (let i = 0; i < 4; i++) dragonSteps.push(deployDragonStep('ends_delight:dragon_tooth'));
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: {
+            item: 'minecraft:skeleton_skull'
+        },
+        loops: 1,
+        results: [
+            {
+                id: 'minecraft:dragon_head'
+            }
+        ],
+        sequence: [
+            {
+                type: "create:cutting",
+                ingredients: [
+                    { item: "kubejs:incomplete_dragon_head" }
+                ],
+                results: [
+                    { id: "kubejs:incomplete_dragon_head" }
+                ]
+            }
+        ].concat(dragonSteps),
+        transitional_item: {
+            id: "kubejs:incomplete_dragon_head"
+        }
+    });
+
+    // 5x 生末影龙肉，冲压，产出 1000mb 龙血
+    event.custom({
+        type: 'create:compacting',
+        ingredients: [
+            { item: 'kaleidoscope_end:raw_ender_dragon_meat' },
+            { item: 'kaleidoscope_end:raw_ender_dragon_meat' },
+            { item: 'kaleidoscope_end:raw_ender_dragon_meat' },
+            { item: 'kaleidoscope_end:raw_ender_dragon_meat' },
+            { item: 'kaleidoscope_end:raw_ender_dragon_meat' },
+        ],
+        results: [
+            {
+                amount: 1000,
+                id: "kaleidoscope_dim_wine:dragon_blood"
+            }
+        ]
+    });
+
+    // ===== 不详之瓶升级：基础不详之瓶 + 绿宝石 无序合成（1 绿宝石 = 升 1 级）=====
+    // 一级 = 原版 minecraft:ominous_bottle（amplifier 0，微光自带配方/试炼密容产出）
+    // 二级~五级 = amplifier 1~4 的同一物品（1.21.1 原版合成配方 result 支持 components）
+    // 注意：1.21.1 配方无法按数据组件匹配输入，故每条配方的瓶输入不做等级区分，
+    // 建议从一级瓶开始合成；绿宝石数量决定目标等级（基础瓶 + N 绿宝石 = N+1 级）
+    // 注意：Rhino 不支持循环体内声明 const/let（会报 redeclaration），数组须声明在循环外
+    let emeraldIngredients = [];
+    for (let level = 1; level <= 4; level++) {
+        emeraldIngredients = [];
+        for (let i = 0; i < level; i++) {
+            emeraldIngredients.push({ item: 'minecraft:emerald' });
+        }
+        event.custom({
+            type: 'minecraft:crafting_shapeless',
+            category: 'misc',
+            ingredients: [
+                { item: 'minecraft:ominous_bottle' }
+            ].concat(emeraldIngredients),
+            result: {
+                id: 'minecraft:ominous_bottle',
+                components: {
+                    'minecraft:ominous_bottle_amplifier': level
+                }
+            }
+        });
+    }
+
+    // 岩浆块，粉碎，产出 1 岩浆膏，75% 额外产出 1 岩浆膏
+    event.custom({
+        type: 'create:crushing',
+        ingredients: [
+            { item: 'minecraft:magma_block' }
+        ],
+        processing_time: 400,
+        results: [
+            {
+                id: 'minecraft:magma_cream'
+            },
+            {
+                chance: 0.75,
+                id: 'minecraft:magma_cream'
+            }
+        ]
+    });
+
+    // 1b 融雪，搅拌，超级燃烧，产出 8 薄云
+    event.custom({
+        type: 'create:mixing',
+        heat_requirement: "superheated",
+        ingredients: [
+            {
+                type: "neoforge:single",
+                "amount": 1000,
+                "fluid": "createcraftedbeginning:slush"
+            }
+        ],
+        results: [
+            {
+                count: 8,
+                id: 'twilightforest:wispy_cloud'
+            }
+        ]
+    });
+
+    // 薄云，批量冶炼（高炉/风扇批量冶炼），产出 1 浮云
+    event.custom({
+        type: 'minecraft:blasting',
+        category: 'blocks',
+        cookingtime: 100,
+        experience: 0.1,
+        ingredient: {
+            item: 'twilightforest:wispy_cloud'
+        },
+        result: {
+            id: 'twilightforest:fluffy_cloud'
+        }
+    });
+
+    // 8 浮云 + 1b 水/融雪，搅拌，产出 雨云/雪云
+    const cloudMixingIngredients = fluidId => {
+        const ingredients = [
+            { type: "neoforge:single", "amount": 1000, "fluid": fluidId }
+        ];
+        for (let i = 0; i < 8; i++) {
+            ingredients.push({ item: 'twilightforest:fluffy_cloud' });
+        }
+        return ingredients;
+    };
+    event.custom({
+        type: 'create:mixing',
+        ingredients: cloudMixingIngredients('minecraft:water'),
+        results: [
+            {
+                id: 'twilightforest:rainy_cloud'
+            }
+        ]
+    });
+    event.custom({
+        type: 'create:mixing',
+        ingredients: cloudMixingIngredients('createcraftedbeginning:slush'),
+        results: [
+            {
+                id: 'twilightforest:snowy_cloud'
+            }
+        ]
+    });
+
 });
