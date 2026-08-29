@@ -1,0 +1,4 @@
+{
+  "patchouli.maid_restaurant.book.categories.basic_management.cook_maid.page_4": "女仆厨师会在自身为中心 50 格的球形范围内持续广播请求，直到范围内有$(l:maid_restaurant:basic_management/waiter_maid)$(#055864)女仆服务员$()$()接受送餐请求为止。",
+  "patchouli.maid_restaurant.book.categories.basic_management.send_order.page_5": "在范围内接受烹饪请求。"
+}

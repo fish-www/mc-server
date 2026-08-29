@@ -1,0 +1,11 @@
+{
+  "block.synaxis.constraint_anchor": "约束锚点",
+  "block.synaxis.constraint_anchor.tooltip": "",
+  "key.synaxis.control_chair.open_bindings": "打开操控椅按键绑定",
+  "key.synaxis.control_chair.reset_view": "重置操控椅视角",
+  "key.synaxis.control_chair.toggle_input": "切换操控椅输入",
+  "key.synaxis.control_chair.toggle_view_lock": "切换操控椅视角锁定",
+  "gui.synaxis.circuit.action.normalize_link": "归一化",
+  "gui.synaxis.engage_gizmo.title.weld_m0": "启用装置",
+  "gui.synaxis.common.unit.tick": "刻"
+}

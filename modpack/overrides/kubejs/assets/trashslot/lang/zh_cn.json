@@ -1,0 +1,21 @@
+{
+  "key.trashslot.toggle_lock": "锁定/解锁垃圾桶槽",
+  "key.trashslot.delete_all": "删除该类型的所有物品",
+  "trashslot.configuration.instantDeletion.tooltip": "使删除槽立即删除物品，类似于创造模式。",
+  "trashslot.configuration.enableDeleteKeysInCreative": "创造模式中启用删除键",
+  "trashslot.configuration.enableDeleteKeysInCreative.tooltip": "设为 true 即可让删除按键在创造模式中也可用。注意：在创造模式中物品将被永久删除，无论 instantDeletion 设置如何！",
+  "trashslot.configuration.enableHints": "启用提示",
+  "trashslot.configuration.enableHints.tooltip": "TrashSlot 会在垃圾桶槽首次关闭时显示提示，或在受支持的界面中开启。设为 false 可禁用。",
+  "trashslot.configuration.allowDeletionWhileTrashSlotIsInvisible": "垃圾桶槽隐藏时允许删除",
+  "trashslot.configuration.allowDeletionWhileTrashSlotIsInvisible.tooltip": "不推荐，但这允许你在垃圾桶槽本身隐藏时仍使用按键删除物品。",
+  "trashslot.configuration.deletionDenyList": "删除拒绝列表",
+  "trashslot.configuration.deletionDenyList.tooltip": "无法被删除的物品列表，格式为逗号分隔的\"modid:name\"。",
+  "trashslot.hint.toggleOn": "按 %s 为此界面启用垃圾桶槽！",
+  "trashslot.hint.toggledOff": "你已关闭垃圾桶槽！按 %s 重新启用。",
+  "trashslot.hint.deletedWhileHidden": "物品已丢弃！",
+  "trashslot.hint.deletionDenied": "物品无法被丢弃！",
+  "trashslot.hint.locked": "垃圾桶槽已锁定。按 %s 解锁。",
+  "trashslot.hint.unlocked": "垃圾桶槽已解锁。按 %s 锁定。",
+  "tooltip.trashslot.destroy_item": "销毁物品",
+  "tooltip.trashslot.trash_item": "丢弃物品"
+}

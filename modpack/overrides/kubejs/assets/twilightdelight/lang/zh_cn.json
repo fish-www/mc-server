@@ -1,0 +1,19 @@
+{
+  "effect.twilightdelight.aurora_glowing.desc": "让自己发出彩虹色的光。所有实体在你看来都呈彩虹色发光",
+  "effect.twilightdelight.fire_range.desc": "点燃周围的敌人，并使你无法被点燃。",
+  "effect.twilightdelight.frozen_range.desc": "冻结周围的敌人，并使你对霜冻免疫。也可以冻结物品。",
+  "effect.twilightdelight.poison_range.desc": "使周围的敌人中毒，并使你对中毒免疫。",
+  "effect.twilightdelight.temporal_sadness.desc": "降低移动速度和攻击伤害。",
+  "twilightdelight.configuration.auroraPeriod": "极光颜色变化周期",
+  "twilightdelight.configuration.auroraPeriod.tooltip": " 默认：30\n 范围：0 ~ 10000",
+  "twilightdelight.configuration.auroraRange": "极光范围",
+  "twilightdelight.configuration.auroraRange.tooltip": " 默认：24\n 范围：0 ~ 128",
+  "twilightdelight.configuration.effectRange": "敌对效果范围，如火/霜/毒",
+  "twilightdelight.configuration.effectRange.tooltip": " 默认：6\n 范围：0 ~ 128",
+  "twilightdelight.configuration.section.twilightdelight.client.toml": "暮色风味与美食客户端配置",
+  "twilightdelight.configuration.section.twilightdelight.client.toml.title": "暮色风味与美食客户端配置",
+  "twilightdelight.configuration.section.twilightdelight.server.toml": "暮色风味与美食服务器配置",
+  "twilightdelight.configuration.section.twilightdelight.server.toml.title": "暮色风味与美食服务器配置",
+  "twilightdelight.configuration.title": "暮色风味与美食配置",
+  "twilightdelight.title": "暮色风味与美食"
+}

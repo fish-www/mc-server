@@ -62,8 +62,132 @@
             "hash": "3e56c097cd0c5be61b767a9a9ae73ae083d2eca9"
         },
         {
+            "path": "kubejs/assets/aeroengineering/lang/zh_cn.json",
+            "hash": "65aea7fd8027f30e8165f071aa0a64b1f5be3b7c"
+        },
+        {
+            "path": "kubejs/assets/arsdelight/lang/zh_cn.json",
+            "hash": "30e71655193ff0280f41835994bb3ce7ab88ed17"
+        },
+        {
+            "path": "kubejs/assets/balm/lang/zh_cn.json",
+            "hash": "33cc6134c1112681e2bd9b50c767a591057e9096"
+        },
+        {
+            "path": "kubejs/assets/betterdays/lang/zh_cn.json",
+            "hash": "bc45c33d0c4636caa7bd62b34e033c9ba55e3aff"
+        },
+        {
+            "path": "kubejs/assets/biomesoplenty/lang/zh_cn.json",
+            "hash": "73f7f97f3e1b87299a8a23ec4fef950bb9826a70"
+        },
+        {
+            "path": "kubejs/assets/cavwb/lang/zh_cn.json",
+            "hash": "b8982bae7ed6a072ae6b67c8041107929ec59d3c"
+        },
+        {
+            "path": "kubejs/assets/corpse/lang/zh_cn.json",
+            "hash": "687b3965a7642a53ea0210cb529146b247e0b735"
+        },
+        {
+            "path": "kubejs/assets/create/lang/zh_cn.json",
+            "hash": "bc82bdf5041c2e8ba358d4fc846c83510387748c"
+        },
+        {
+            "path": "kubejs/assets/create_confectionery/lang/zh_cn.json",
+            "hash": "838284ddd5ea94fbf19f29a5c9cdc2bb8ae05649"
+        },
+        {
+            "path": "kubejs/assets/create_mobile_packages/lang/zh_cn.json",
+            "hash": "745df550c831338a242019ee315bc4e4cb3022f4"
+        },
+        {
+            "path": "kubejs/assets/create_radar/lang/zh_cn.json",
+            "hash": "6555986fd06094b43fb5426557f298896b07cae5"
+        },
+        {
+            "path": "kubejs/assets/create_sa/lang/zh_cn.json",
+            "hash": "847408f05bd7c6214c08b8c937072054aa535978"
+        },
+        {
+            "path": "kubejs/assets/create_things_and_misc/lang/zh_cn.json",
+            "hash": "474f70c087ecf267774073cdf9b08b128b0f049f"
+        },
+        {
+            "path": "kubejs/assets/createadditionallogistics/lang/zh_cn.json",
+            "hash": "1c1b62d7be69a3f4f994bc59c73c52268332eba2"
+        },
+        {
+            "path": "kubejs/assets/createbuttercat/lang/zh_cn.json",
+            "hash": "7ed65a43d12e134bf53c422562b094cc1a02b2a8"
+        },
+        {
+            "path": "kubejs/assets/createcafe/lang/zh_cn.json",
+            "hash": "3772d3ac788554e712a3febcf98b644cfc95e60f"
+        },
+        {
+            "path": "kubejs/assets/createdeco/lang/zh_cn.json",
+            "hash": "6bb9f0b48d38269e5127eecea289e4b817966f8d"
+        },
+        {
+            "path": "kubejs/assets/createdieselgenerators/lang/zh_cn.json",
+            "hash": "d73c077ad429c69039e7f6d8a4b1931ff10841f7"
+        },
+        {
+            "path": "kubejs/assets/createpropulsion/lang/zh_cn.json",
+            "hash": "8ee575eb7d3873a7d306188e0cbac6cc698bffb9"
+        },
+        {
+            "path": "kubejs/assets/createrailwaysnavigator/lang/zh_cn.json",
+            "hash": "863c52c89c5334e257971d26a84af109ef021c9e"
+        },
+        {
+            "path": "kubejs/assets/creativecore/lang/zh_cn.json",
+            "hash": "f1b7ae5ab6261eb1af2f268e4cb27ee41bd931ea"
+        },
+        {
+            "path": "kubejs/assets/curios/lang/zh_cn.json",
+            "hash": "e6bf63f309802e6433aa7175823c0139ded13356"
+        },
+        {
+            "path": "kubejs/assets/dndecor/lang/zh_cn.json",
+            "hash": "b0beea9b62624fefac6991c73e1db802d58487c4"
+        },
+        {
             "path": "kubejs/assets/dragon_head/lang/zh_cn.json",
             "hash": "5f223a35c6d1a67cfaa2a869e88ee656adb5c955"
+        },
+        {
+            "path": "kubejs/assets/dragonlib/lang/zh_cn.json",
+            "hash": "857abf18011cdcd025ecb895705fc34c2722efda"
+        },
+        {
+            "path": "kubejs/assets/drivebywire/lang/zh_cn.json",
+            "hash": "f4f95003a28755064ff584cf4832edbcaa0df67c"
+        },
+        {
+            "path": "kubejs/assets/dynamic_fps/lang/zh_cn.json",
+            "hash": "fb38b3ae711cd4b32eac64bb82830fe11dd69e7b"
+        },
+        {
+            "path": "kubejs/assets/eclipticseasons/lang/zh_cn.json",
+            "hash": "b9b3787eaf6569783555b3e6a73e104ab27878ee"
+        },
+        {
+            "path": "kubejs/assets/farmersdelight/lang/zh_cn.json",
+            "hash": "6334ebf9bd29b7e10ea52d213918b93fc8f18972"
+        },
+        {
+            "path": "kubejs/assets/firstperson/lang/zh_cn.json",
+            "hash": "ee7157248a0990d59d19543848041c4d54163b32"
+        },
+        {
+            "path": "kubejs/assets/framedblocks/lang/zh_cn.json",
+            "hash": "e43cf3b1b85db0fdbc6745a762667b3ad265b399"
+        },
+        {
+            "path": "kubejs/assets/fusion/lang/zh_cn.json",
+            "hash": "f1f83c0f2ec8e2b118cc0d5e683e666f97e32119"
         },
         {
             "path": "kubejs/assets/golden_dandelion/lang/zh_cn.json",
@@ -74,8 +198,52 @@
             "hash": "1fb6ac946af84c1702360b19f0000b0f72f2263e"
         },
         {
+            "path": "kubejs/assets/inventoryprofilesnext/lang/zh_cn.json",
+            "hash": "b51638608e6c8369845b9749dc3cfec27954a48c"
+        },
+        {
+            "path": "kubejs/assets/iris/lang/zh_cn.json",
+            "hash": "de246dab76b981af723476c1d92476aa65c15215"
+        },
+        {
+            "path": "kubejs/assets/jade/lang/zh_cn.json",
+            "hash": "3fac556b62fe3afc0a4e3bd1c6962f2629208ddf"
+        },
+        {
+            "path": "kubejs/assets/jadeaddons/lang/zh_cn.json",
+            "hash": "73294acb174493198dac4c39ec19f7e294d11228"
+        },
+        {
+            "path": "kubejs/assets/kaleidoscope_chinesefood/lang/zh_cn.json",
+            "hash": "a664769290ace5d4244490fa5a482212089617dc"
+        },
+        {
+            "path": "kubejs/assets/kaleidoscope_compat/lang/zh_cn.json",
+            "hash": "65b6051ab424625048852c073e545582dd25bb1d"
+        },
+        {
+            "path": "kubejs/assets/kaleidoscope_cookery/lang/zh_cn.json",
+            "hash": "2d10ca3f04dd3f92f1360184a1c827320067e9f0"
+        },
+        {
             "path": "kubejs/assets/kaleidoscope_end/lang/zh_cn.json",
             "hash": "43ed81f0d36a6344b0ee09a1c15efcbe525a470a"
+        },
+        {
+            "path": "kubejs/assets/kaleidoscope_nether/lang/zh_cn.json",
+            "hash": "88b87372f5213ad6d1ab132fa5a1ae4e0bb78f3a"
+        },
+        {
+            "path": "kubejs/assets/kaleidoscope_sculk/lang/zh_cn.json",
+            "hash": "9640ce5b57a7d23596099be5dd1f93dbe3f613b5"
+        },
+        {
+            "path": "kubejs/assets/kaleidoscope_world_liquor/lang/zh_cn.json",
+            "hash": "56f3a0b30f594484c62b3c4c5a536f9894d3a850"
+        },
+        {
+            "path": "kubejs/assets/kubejs/lang/zh_cn.json",
+            "hash": "94bc4d5844f29404748156b01647ac1671e891c7"
         },
         {
             "path": "kubejs/assets/kubejs/textures/block/example_block.png",
@@ -84,6 +252,146 @@
         {
             "path": "kubejs/assets/kubejs/textures/item/example_item.png",
             "hash": "d9912cb709ad496b10f19f8b2c66d1e419eb760c"
+        },
+        {
+            "path": "kubejs/assets/ldlib2/lang/zh_cn.json",
+            "hash": "23135063ab291c17000fb13f8c6df406414d78b3"
+        },
+        {
+            "path": "kubejs/assets/maid_restaurant/lang/zh_cn.json",
+            "hash": "29a9979881aa53c208f69e9b46f46972b3a424e3"
+        },
+        {
+            "path": "kubejs/assets/minihud/lang/zh_cn.json",
+            "hash": "530a46083f081a8bb5d67eaa8d6837819fe9930b"
+        },
+        {
+            "path": "kubejs/assets/natures_spirit/lang/zh_cn.json",
+            "hash": "4f193e03214c185a8dd0b8d63cb9784f09302ce8"
+        },
+        {
+            "path": "kubejs/assets/notenoughanimations/lang/zh_cn.json",
+            "hash": "3ad8151f0a955c13c467dcdef3d8ba983a313c11"
+        },
+        {
+            "path": "kubejs/assets/observable/lang/zh_cn.json",
+            "hash": "936f904d4ca501cf0c41ba5c3d92690d7f085bd1"
+        },
+        {
+            "path": "kubejs/assets/oelib/lang/zh_cn.json",
+            "hash": "e562c713647839873f556707d6d0a84f452d360a"
+        },
+        {
+            "path": "kubejs/assets/openpartiesandclaims/lang/zh_cn.json",
+            "hash": "3e7a4bf5c7aeb4af4f6fe240e9f1fd5d9de6b0f5"
+        },
+        {
+            "path": "kubejs/assets/patchouli/lang/zh_cn.json",
+            "hash": "1ed5a96770f4cf35eb139a2ff1d1884c8df2fe54"
+        },
+        {
+            "path": "kubejs/assets/pfsable/lang/zh_cn.json",
+            "hash": "8077575c40298dd2d92fcf391e06e974334b3c0a"
+        },
+        {
+            "path": "kubejs/assets/pipeorgans/lang/zh_cn.json",
+            "hash": "396fc88ad9e7316508178af51c8721909c26e4d3"
+        },
+        {
+            "path": "kubejs/assets/plonk/lang/zh_cn.json",
+            "hash": "04f468f4fd7e88264ce8cf7672309415055acfee"
+        },
+        {
+            "path": "kubejs/assets/powergrid/lang/zh_cn.json",
+            "hash": "1b4674478c5e6b2a64dccbaf84bdf7bf77a26a2e"
+        },
+        {
+            "path": "kubejs/assets/presencefootsteps/lang/zh_cn.json",
+            "hash": "1ed43e24054f78dc735d48b8ecfb08aa290ad01e"
+        },
+        {
+            "path": "kubejs/assets/probejs/lang/zh_cn.json",
+            "hash": "67955bb61e6e35b40a177eed4c72e606d0b1868a"
+        },
+        {
+            "path": "kubejs/assets/railways/lang/zh_cn.json",
+            "hash": "d3c66db696bc66a74aaf26a8575678e284be03d9"
+        },
+        {
+            "path": "kubejs/assets/sable/lang/zh_cn.json",
+            "hash": "39553e386b055a85a89806f8dc62baab70eeb176"
+        },
+        {
+            "path": "kubejs/assets/sable_schematic_api/lang/zh_cn.json",
+            "hash": "778f9b8b88bd26321f73c2a6f043cddf9a7cdfb7"
+        },
+        {
+            "path": "kubejs/assets/sclp/lang/zh_cn.json",
+            "hash": "3a1829a5785e59da0a3a338c4441a50a5acc59e8"
+        },
+        {
+            "path": "kubejs/assets/sereneseasons/lang/zh_cn.json",
+            "hash": "fbf1a20f9146143e8d34b39583f8fa076db95ac7"
+        },
+        {
+            "path": "kubejs/assets/simulatedcoasters/lang/zh_cn.json",
+            "hash": "83c99b84537eda0f8f81c86eefbd9068c0a9d7cd"
+        },
+        {
+            "path": "kubejs/assets/simurail/lang/zh_cn.json",
+            "hash": "ee3d628d64ef7c509dab1740cf6b6758c3a5b2e4"
+        },
+        {
+            "path": "kubejs/assets/synaxis/lang/zh_cn.json",
+            "hash": "fc7ef95f5aea953797612ce82fbc5e874ee9d3b5"
+        },
+        {
+            "path": "kubejs/assets/tectonic/lang/zh_cn.json",
+            "hash": "be4bd3cf5b409f535916488528c9acb0c09870da"
+        },
+        {
+            "path": "kubejs/assets/terrablender/lang/zh_cn.json",
+            "hash": "f59c8aa669cefc8374444e57183bb759b0480f8c"
+        },
+        {
+            "path": "kubejs/assets/tide/lang/zh_cn.json",
+            "hash": "128bdd985a4d2442bd75cab0e1023aa00cc84a78"
+        },
+        {
+            "path": "kubejs/assets/tracks/lang/zh_cn.json",
+            "hash": "40036ab8c53fe1f66958289d1f3a691d5cdb7600"
+        },
+        {
+            "path": "kubejs/assets/trashslot/lang/zh_cn.json",
+            "hash": "602f621e43d641ad9bc53725d31eb690914e24be"
+        },
+        {
+            "path": "kubejs/assets/travelersbackpack/lang/zh_cn.json",
+            "hash": "9129e03401dfdd200dbcd99cf1261ac962b154ab"
+        },
+        {
+            "path": "kubejs/assets/twilightdelight/lang/zh_cn.json",
+            "hash": "b03af885bf72757532eee748968db7228099766a"
+        },
+        {
+            "path": "kubejs/assets/twilightforest/lang/zh_cn.json",
+            "hash": "82840a74ddf9b00ad1f18869b95cfc2fb2dd1e20"
+        },
+        {
+            "path": "kubejs/assets/xaerominimap/lang/zh_cn.json",
+            "hash": "56c9b29b53324fd303bd5d9a3a0527d00d1523b2"
+        },
+        {
+            "path": "kubejs/assets/xaeroworldmap/lang/zh_cn.json",
+            "hash": "0dbadcdbe4cd97f0feb0ebf8a508373144cb40a7"
+        },
+        {
+            "path": "kubejs/assets/yuushya/lang/zh_cn.json",
+            "hash": "57adb5fc75da1f529704b3da564e32ad5ad49fab"
+        },
+        {
+            "path": "kubejs/assets/zume/lang/zh_cn.json",
+            "hash": "564e95eccc9773a2be3317ae1efa2b992623e557"
         },
         {
             "path": "kubejs/client_scripts/main.js",

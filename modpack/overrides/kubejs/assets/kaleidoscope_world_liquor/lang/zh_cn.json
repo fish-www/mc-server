@@ -1,0 +1,5 @@
+{
+  "item.kaleidoscope_world_liquor.custom_record.desc": "播放随机的酒吧风格背景音乐",
+  "message.kaleidoscope_world_liquor.command.no_target": "未找到目标方块",
+  "message.kaleidoscope_world_liquor.command.barrel_invalid": "木桶数据无效"
+}

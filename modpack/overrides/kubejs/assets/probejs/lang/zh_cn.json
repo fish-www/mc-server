@@ -1,0 +1,12 @@
+{
+  "probejs.already_running": "已经有一个转储线程在运行，请稍候。",
+  "probejs.interactive": "ProbeJS 交互服务器正在监听端口 %s。",
+  "probejs.complete": "ProbeJS 现在将转储所有复杂类型，代价是 VSCode 的性能。",
+  "probejs.no_complete": "ProbeJS 现在将在转储中禁用某些类型，因此你的 VSCode 应该运行得更快。缺失的类型请使用代码片段。",
+  "probejs.performance": "你安装了 %s 个模组！出于性能考虑，部分功能已被禁用，但可能不会太多。如果想要完整（但较慢）的转储，请使用 /probejs config complete_dump 切换！",
+  "probejs.decompile": "ProbeJS 将在下次转储时反编译模组源码，模组列表变化时也会触发反编译。",
+  "probejs.no_decompile": "ProbeJS 现在不会反编译模组源码。",
+  "probejs.generate_beans": "ProbeJS 现在将为 getXX、isXX 和 setXX 方法生成 bean。",
+  "probejs.no_generate_beans": "ProbeJS 现在不会生成 bean。",
+  "probejs.modified_give_command": "[ProbeJS] 这不是原版行为，仅限开发环境使用！"
+}

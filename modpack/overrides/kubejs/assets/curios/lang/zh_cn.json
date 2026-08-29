@@ -1,0 +1,9 @@
+{
+  "curios.tooltip.inactive": "未激活槽位",
+  "commands.curios.drop.success": "已掉落 %s 的槽位 %s 中的物品",
+  "commands.curios.dropAll.success": "已掉落 %s 的所有槽位中的物品",
+  "commands.curios.replace.success": "已将 %s 的槽位 %s 替换为 %s",
+  "gui.curios.toggle.cosmetics": "切换装饰显示",
+  "gui.curios.page": "第 %d / %d 页",
+  "curios.networking.failed": "Curios 网络连接失败"
+}

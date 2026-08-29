@@ -1,0 +1,20 @@
+{
+  "config.kaleidoscope_compat.spectrum.pot_item_handler_enabled": "炒锅节点传输",
+  "config.kaleidoscope_compat.spectrum.chopping_board_item_handler_enabled": "砧板节点传输",
+  "config.kaleidoscope_compat.spectrum.millstone_item_handler_enabled": "石磨节点传输",
+  "config.kaleidoscope_compat.spectrum.shawarma_spit_item_handler_enabled": "沙威玛烤肉架节点传输",
+  "config.kaleidoscope_compat.spectrum.steamer_item_handler_enabled": "蒸笼节点传输",
+  "config.kaleidoscope_compat.spectrum.teapot_item_handler_enabled": "茶壶节点传输",
+  "config.kaleidoscope_compat.spectrum.trash_can_item_handler_enabled": "垃圾桶节点传输",
+  "config.kaleidoscope_compat.spectrum.pot_item_handler_enabled.comment": "是否启用炒锅节点传输",
+  "config.kaleidoscope_compat.spectrum.chopping_board_item_handler_enabled.comment": "是否启用砧板节点传输",
+  "config.kaleidoscope_compat.spectrum.millstone_item_handler_enabled.comment": "是否启用石磨节点传输",
+  "config.kaleidoscope_compat.spectrum.shawarma_spit_item_handler_enabled.comment": "是否启用沙威玛烤肉架节点传输",
+  "config.kaleidoscope_compat.spectrum.steamer_item_handler_enabled.comment": "是否启用蒸笼节点传输",
+  "config.kaleidoscope_compat.spectrum.teapot_item_handler_enabled.comment": "是否启用茶壶节点传输",
+  "config.kaleidoscope_compat.spectrum.trash_can_item_handler_enabled.comment": "是否启用垃圾桶节点传输",
+  "config.kaleidoscope_compat.compat.quark_sickle_harvest_fix_enabled": "Quark 镰刀收割修复",
+  "config.kaleidoscope_compat.compat.quark_sickle_harvest_fix_enabled.comment": "启用后，手持镰刀不会触发 Quark 的收割",
+  "key.category.kaleidoscope_compat": "万花筒：兼容",
+  "key.kaleidoscope_compat.take_kitchen_item": "从动态装置取出厨房物品"
+}
