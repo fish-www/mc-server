@@ -624,10 +624,6 @@
             "hash": "127e4a3e699dafebc512e1fa7983f245b49cb420"
         },
         {
-            "path": "mods/ServuxForged-0.2.2-mc1.21.1.jar",
-            "hash": "2e08e37bd191d392aa8574dc657e529aad206976"
-        },
-        {
             "path": "mods/SiliconeDolls-neoforge-1.21.1-1.0.0+build.65.jar",
             "hash": "2adc3b1d1d5904a83a07c4acd0a9bdfc3a70144f"
         },
@@ -1164,8 +1160,12 @@
             "hash": "e81eb6a6c1db508e5d81387294762583ad52947f"
         },
         {
-            "path": "mods/serverwarashi-1.21.1-2.0.4.jar",
-            "hash": "44d1960f998aa723f88e7d26c3e43d6726b70c51"
+            "path": "mods/serverwarashi-1.21.1-2.1.0.1.jar",
+            "hash": "9a2b4fb635ec32bf5c0d79cd03c63005ff5971a4"
+        },
+        {
+            "path": "mods/servux-neoforge-0.4.1+mc1.21.1.jar",
+            "hash": "193747281d7f81a686ec773a59b48d017c11bf3a"
         },
         {
             "path": "mods/simulatedcoasters-0.1.5.jar",
