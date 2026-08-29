@@ -1,6 +1,6 @@
 [general]
 	#Whether to display disclaimer GUI
-	DisclaimerShow = true
+	DisclaimerShow = false
 	#Whether to print animation roulette play message
 	PrintAnimationRouletteMsg = false
 	#Prevents rendering of self player's model
@@ -13,8 +13,6 @@
 	DisableProjectileModel = false
 	#Prevents rendering of vehicle model
 	DisableVehicleModel = false
-	#Disable first person animation from other mods.
-	DisableExternalFirstPersonAnim = false
 	#If rendering errors occur, try turning on this.
 	UseCompatibilityRenderer = false
 	#The amount of volume when the animation is played.
@@ -23,6 +21,8 @@
 	SoundVolume = 100.0
 	#Whether to display model ID first in the model selection screen, instead of the model name filled in by the model author.
 	ShowModelIdFirst = false
+	#Disable first person animation from other mods.
+	DisableExternalFirstPersonAnim = false
 
 [extra_player_render]
 	#Whether to display player
@@ -50,3 +50,7 @@
 	#Loading state screen position
 	#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
 	LoadingStatePosition = "TOP_CENTER"
+
+[Integration]
+	SophisticatedBackpack = true
+	Parcool = true

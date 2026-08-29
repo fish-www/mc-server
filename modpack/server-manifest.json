@@ -31,7 +31,7 @@
         },
         {
             "path": "config/eclipticseasons-common.toml",
-            "hash": "73321f6a418db02b1f303cc83df7f3de5eb3c321"
+            "hash": "4b66e07c81f1852db4aac14355d2dd80ffa94a48"
         },
         {
             "path": "config/incontrol/spawn.json",
@@ -51,11 +51,11 @@
         },
         {
             "path": "config/yes_steve_model-client.toml",
-            "hash": "0b84464e97832d7415d08674cb0c53fb86410954"
+            "hash": "4552831a0773721c950d192df9df71ae5adcb84b"
         },
         {
             "path": "config/zume.json5",
-            "hash": "1fcaaf9e71691c07d96d3e72481fc0db89af25d6"
+            "hash": "29a064f4c26b301064a2f6fad9beedd8ffcbde81"
         },
         {
             "path": "kubejs/README.txt",
