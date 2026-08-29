@@ -56,6 +56,10 @@
             "hash": "85f9b30066235517b991d0c501f6df256cef8eb0"
         },
         {
+            "path": "config/oei/common.json",
+            "hash": "4fbd5029674948858f3efe8b82d3f7c90cfcdd59"
+        },
+        {
             "path": "config/tweakeroo.json",
             "hash": "72e78277ecad4bf3dc65d4d05e81c21e01cb833a"
         },
