@@ -584,6 +584,10 @@
             "hash": "d0aef07e67f9e2dd7ae68f9f27d845511d8eaff3"
         },
         {
+            "path": "mods/Kaleidoscope Texture Expansion-2.8.0-1.21.1.jar",
+            "hash": "26de215fa4891cdfc899c8087f05011d9bc22f63"
+        },
+        {
             "path": "mods/MaidUseHandCrank_1.6.2-neoforge_21.1.219-1.21.1.jar",
             "hash": "b6105222645e2946bb93186d133e8e03baa61e88"
         },
@@ -618,6 +622,10 @@
         {
             "path": "mods/SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
             "hash": "127e4a3e699dafebc512e1fa7983f245b49cb420"
+        },
+        {
+            "path": "mods/ServuxForged-0.2.2-mc1.21.1.jar",
+            "hash": "2e08e37bd191d392aa8574dc657e529aad206976"
         },
         {
             "path": "mods/SiliconeDolls-neoforge-1.21.1-1.0.0+build.65.jar",
@@ -932,6 +940,10 @@
             "hash": "cd0a6662d10c9cc114d9cab6754907fe911ed71c"
         },
         {
+            "path": "mods/incontrol-1.21-10.2.6.jar",
+            "hash": "7671cdc14af14166e72eff07eab7e55d81b52a41"
+        },
+        {
             "path": "mods/interiors-1.21.1-neoforge-0.6.1.jar",
             "hash": "a558777ef4510da2f4d32ca3da6ac7384c9a9940"
         },
@@ -1170,6 +1182,10 @@
         {
             "path": "mods/sodium-neoforge-0.8.13+mc1.21.1.jar",
             "hash": "1757289be21ed18db5b0d90703fa3db1b2de5693"
+        },
+        {
+            "path": "mods/spark-1.10.124-neoforge.jar",
+            "hash": "9430cc2ab64ff89d698be593769fb9f9ee4efae6"
         },
         {
             "path": "mods/synaxis-1.5.0.jar",
