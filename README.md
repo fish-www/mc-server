@@ -125,6 +125,10 @@ http://<此处插入地址>/modpack-lite/server-manifest.json
 
 `server-manifest.json` 中包含了客户端整合包中的所有文件（路径及其 sha1sum）
 
-有相关改动时，同步更新 `server-manifest.json` 文件
+有相关改动时，用 `scripts/update-manifest.py` 同步清单（自动刷新 hash / 新增条目 / 删除失效条目，并自动去重排序）：
 
-更新完需要跑一下 `dedup-manifest.py` 确保 `server-manifest.json` 内容不重复且有序
+```bash
+python3 scripts/update-manifest.py server/config/xxx.json
+```
+
+也可以直接编辑 `server-manifest.json` 的 `files` 列表，然后跑 `scripts/dedup-manifest.py` 确保内容不重复且有序

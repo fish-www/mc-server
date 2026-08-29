@@ -6,7 +6,7 @@ hash but different paths are kept -- each path still needs to be downloaded.
 
 Usage:
     python dedup-manifest.py [manifest.json] [output.json]
-Defaults: input=server-manifest.json  output=the same file (in place)
+Defaults: input=server-manifest.json (repo root)  output=the same file (in place)
 Pass a different output path to keep the original intact.
 """
 
@@ -15,10 +15,11 @@ import os
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
 
 
 def main() -> int:
-    manifest_path = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "server-manifest.json")
+    manifest_path = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "server-manifest.json")
     output = sys.argv[2] if len(sys.argv) > 2 else manifest_path
 
     if not os.path.isfile(manifest_path):
