@@ -1,0 +1,9 @@
+{
+  "key.category.firstperson.keybind": "FirstPerson 模组",
+  "text.firstperson.tab.settings": "设置",
+  "text.firstperson.tab.autovanillahands": "自动原版手臂",
+  "text.firstperson.tab.autovanillahands.tooltip": "手持物品时自动切换为原版手臂",
+  "text.firstperson.tab.disableitems": "禁用物品",
+  "text.firstperson.tab.disableitems.tooltip": "手持指定物品时禁用 FirstPerson 模组",
+  "text.firstperson.tab.layers": "显示图层"
+}

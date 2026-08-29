@@ -1,0 +1,9 @@
+{
+  "tooltip.create_mobile_packages.network.owner_indicator": "你是此网络的所有者",
+  "tooltip.create_mobile_packages.network.member_indicator": "你是此网络的成员",
+  "tooltip.create_mobile_packages.bee_port.filter_mode.all": "过滤：所有物品",
+  "tooltip.create_mobile_packages.bee_port.filter_mode.packages": "过滤：仅包裹",
+  "tooltip.create_mobile_packages.bee_port.filter_mode.bees": "过滤：仅机械蜜蜂",
+  "tooltip.create_mobile_packages.bee_port.filter_mode.description": "控制漏斗、溜槽、传送带等可以插入和抽取哪些物品。",
+  "tooltip.create_mobile_packages.bee_port.return_mode.description": "控制蜜蜂完成投递任务后是否返回此端口。"
+}

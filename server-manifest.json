@@ -1,0 +1,1291 @@
+{
+    "name": "aer",
+    "author": "fish",
+    "version": "1.5.0",
+    "description": "更新大量 mod；补充 kubejs 中文语言文件与整合包数据包（OEIBF、恒定气压）；恢复完整包的光影与航空学汉化资源包",
+    "fileApi": "https://fish-share.fish-www.com/mc/aer/modpack",
+    "addons": [
+        {
+            "id": "game",
+            "version": "1.21.1"
+        },
+        {
+            "id": "neoforge",
+            "version": "21.1.248"
+        }
+    ],
+    "files": [
+        {
+            "path": "config/RuOK.toml",
+            "hash": "826a2556f8f1caee881478122582d8db9dcc1d6e"
+        },
+        {
+            "path": "config/ars_nouveau-client.toml",
+            "hash": "872dd9db13e67f41b836d5991e07078f3d03fdfb"
+        },
+        {
+            "path": "config/biomesoplenty/biome_toggles.json",
+            "hash": "b8753e8be82b88908ef2c0159844f8930a777fbc"
+        },
+        {
+            "path": "config/carryon-common.toml",
+            "hash": "6920490150755075806a110160801eb219da7e26"
+        },
+        {
+            "path": "config/create-server.toml",
+            "hash": "789f5d9f5438a3a511f1737cd90e4a02032430fd"
+        },
+        {
+            "path": "config/create-stuff-additions.toml",
+            "hash": "f34ce12ed25c5610dd53294e36abe173d4b97b84"
+        },
+        {
+            "path": "config/eclipticseasons-common.toml",
+            "hash": "4b66e07c81f1852db4aac14355d2dd80ffa94a48"
+        },
+        {
+            "path": "config/incontrol/spawn.json",
+            "hash": "16249d94c92da092914e80ca2fa909866d110627"
+        },
+        {
+            "path": "config/minihud.json",
+            "hash": "85f9b30066235517b991d0c501f6df256cef8eb0"
+        },
+        {
+            "path": "config/tweakeroo.json",
+            "hash": "72e78277ecad4bf3dc65d4d05e81c21e01cb833a"
+        },
+        {
+            "path": "config/xaerohud.txt",
+            "hash": "517916c1f2e0a8b75735859edb7d692bba2c079e"
+        },
+        {
+            "path": "config/yes_steve_model-client.toml",
+            "hash": "4552831a0773721c950d192df9df71ae5adcb84b"
+        },
+        {
+            "path": "config/zume.json5",
+            "hash": "29a064f4c26b301064a2f6fad9beedd8ffcbde81"
+        },
+        {
+            "path": "kubejs/README.txt",
+            "hash": "3e56c097cd0c5be61b767a9a9ae73ae083d2eca9"
+        },
+        {
+            "path": "kubejs/assets/aeroengineering/lang/zh_cn.json",
+            "hash": "65aea7fd8027f30e8165f071aa0a64b1f5be3b7c"
+        },
+        {
+            "path": "kubejs/assets/arsdelight/lang/zh_cn.json",
+            "hash": "30e71655193ff0280f41835994bb3ce7ab88ed17"
+        },
+        {
+            "path": "kubejs/assets/balm/lang/zh_cn.json",
+            "hash": "33cc6134c1112681e2bd9b50c767a591057e9096"
+        },
+        {
+            "path": "kubejs/assets/betterdays/lang/zh_cn.json",
+            "hash": "bc45c33d0c4636caa7bd62b34e033c9ba55e3aff"
+        },
+        {
+            "path": "kubejs/assets/biomesoplenty/lang/zh_cn.json",
+            "hash": "73f7f97f3e1b87299a8a23ec4fef950bb9826a70"
+        },
+        {
+            "path": "kubejs/assets/cavwb/lang/zh_cn.json",
+            "hash": "b8982bae7ed6a072ae6b67c8041107929ec59d3c"
+        },
+        {
+            "path": "kubejs/assets/corpse/lang/zh_cn.json",
+            "hash": "687b3965a7642a53ea0210cb529146b247e0b735"
+        },
+        {
+            "path": "kubejs/assets/create/lang/zh_cn.json",
+            "hash": "bc82bdf5041c2e8ba358d4fc846c83510387748c"
+        },
+        {
+            "path": "kubejs/assets/create_confectionery/lang/zh_cn.json",
+            "hash": "838284ddd5ea94fbf19f29a5c9cdc2bb8ae05649"
+        },
+        {
+            "path": "kubejs/assets/create_mobile_packages/lang/zh_cn.json",
+            "hash": "745df550c831338a242019ee315bc4e4cb3022f4"
+        },
+        {
+            "path": "kubejs/assets/create_radar/lang/zh_cn.json",
+            "hash": "6555986fd06094b43fb5426557f298896b07cae5"
+        },
+        {
+            "path": "kubejs/assets/create_sa/lang/zh_cn.json",
+            "hash": "847408f05bd7c6214c08b8c937072054aa535978"
+        },
+        {
+            "path": "kubejs/assets/create_things_and_misc/lang/zh_cn.json",
+            "hash": "474f70c087ecf267774073cdf9b08b128b0f049f"
+        },
+        {
+            "path": "kubejs/assets/createadditionallogistics/lang/zh_cn.json",
+            "hash": "1c1b62d7be69a3f4f994bc59c73c52268332eba2"
+        },
+        {
+            "path": "kubejs/assets/createbuttercat/lang/zh_cn.json",
+            "hash": "7ed65a43d12e134bf53c422562b094cc1a02b2a8"
+        },
+        {
+            "path": "kubejs/assets/createcafe/lang/zh_cn.json",
+            "hash": "3772d3ac788554e712a3febcf98b644cfc95e60f"
+        },
+        {
+            "path": "kubejs/assets/createdeco/lang/zh_cn.json",
+            "hash": "6bb9f0b48d38269e5127eecea289e4b817966f8d"
+        },
+        {
+            "path": "kubejs/assets/createdieselgenerators/lang/zh_cn.json",
+            "hash": "d73c077ad429c69039e7f6d8a4b1931ff10841f7"
+        },
+        {
+            "path": "kubejs/assets/createpropulsion/lang/zh_cn.json",
+            "hash": "8ee575eb7d3873a7d306188e0cbac6cc698bffb9"
+        },
+        {
+            "path": "kubejs/assets/createrailwaysnavigator/lang/zh_cn.json",
+            "hash": "863c52c89c5334e257971d26a84af109ef021c9e"
+        },
+        {
+            "path": "kubejs/assets/creativecore/lang/zh_cn.json",
+            "hash": "f1b7ae5ab6261eb1af2f268e4cb27ee41bd931ea"
+        },
+        {
+            "path": "kubejs/assets/curios/lang/zh_cn.json",
+            "hash": "e6bf63f309802e6433aa7175823c0139ded13356"
+        },
+        {
+            "path": "kubejs/assets/dndecor/lang/zh_cn.json",
+            "hash": "b0beea9b62624fefac6991c73e1db802d58487c4"
+        },
+        {
+            "path": "kubejs/assets/dragon_head/lang/zh_cn.json",
+            "hash": "5f223a35c6d1a67cfaa2a869e88ee656adb5c955"
+        },
+        {
+            "path": "kubejs/assets/dragonlib/lang/zh_cn.json",
+            "hash": "857abf18011cdcd025ecb895705fc34c2722efda"
+        },
+        {
+            "path": "kubejs/assets/drivebywire/lang/zh_cn.json",
+            "hash": "f4f95003a28755064ff584cf4832edbcaa0df67c"
+        },
+        {
+            "path": "kubejs/assets/dynamic_fps/lang/zh_cn.json",
+            "hash": "fb38b3ae711cd4b32eac64bb82830fe11dd69e7b"
+        },
+        {
+            "path": "kubejs/assets/eclipticseasons/lang/zh_cn.json",
+            "hash": "b9b3787eaf6569783555b3e6a73e104ab27878ee"
+        },
+        {
+            "path": "kubejs/assets/farmersdelight/lang/zh_cn.json",
+            "hash": "6334ebf9bd29b7e10ea52d213918b93fc8f18972"
+        },
+        {
+            "path": "kubejs/assets/firstperson/lang/zh_cn.json",
+            "hash": "ee7157248a0990d59d19543848041c4d54163b32"
+        },
+        {
+            "path": "kubejs/assets/framedblocks/lang/zh_cn.json",
+            "hash": "e43cf3b1b85db0fdbc6745a762667b3ad265b399"
+        },
+        {
+            "path": "kubejs/assets/fusion/lang/zh_cn.json",
+            "hash": "f1f83c0f2ec8e2b118cc0d5e683e666f97e32119"
+        },
+        {
+            "path": "kubejs/assets/golden_dandelion/lang/zh_cn.json",
+            "hash": "6d1fcc79674d71531061a118d8935f324a561b89"
+        },
+        {
+            "path": "kubejs/assets/golden_dandelion/textures/item/golden_dandelion.png",
+            "hash": "1fb6ac946af84c1702360b19f0000b0f72f2263e"
+        },
+        {
+            "path": "kubejs/assets/inventoryprofilesnext/lang/zh_cn.json",
+            "hash": "b51638608e6c8369845b9749dc3cfec27954a48c"
+        },
+        {
+            "path": "kubejs/assets/iris/lang/zh_cn.json",
+            "hash": "de246dab76b981af723476c1d92476aa65c15215"
+        },
+        {
+            "path": "kubejs/assets/jade/lang/zh_cn.json",
+            "hash": "3fac556b62fe3afc0a4e3bd1c6962f2629208ddf"
+        },
+        {
+            "path": "kubejs/assets/jadeaddons/lang/zh_cn.json",
+            "hash": "73294acb174493198dac4c39ec19f7e294d11228"
+        },
+        {
+            "path": "kubejs/assets/kaleidoscope_chinesefood/lang/zh_cn.json",
+            "hash": "a664769290ace5d4244490fa5a482212089617dc"
+        },
+        {
+            "path": "kubejs/assets/kaleidoscope_compat/lang/zh_cn.json",
+            "hash": "65b6051ab424625048852c073e545582dd25bb1d"
+        },
+        {
+            "path": "kubejs/assets/kaleidoscope_cookery/lang/zh_cn.json",
+            "hash": "2d10ca3f04dd3f92f1360184a1c827320067e9f0"
+        },
+        {
+            "path": "kubejs/assets/kaleidoscope_end/lang/zh_cn.json",
+            "hash": "43ed81f0d36a6344b0ee09a1c15efcbe525a470a"
+        },
+        {
+            "path": "kubejs/assets/kaleidoscope_nether/lang/zh_cn.json",
+            "hash": "88b87372f5213ad6d1ab132fa5a1ae4e0bb78f3a"
+        },
+        {
+            "path": "kubejs/assets/kaleidoscope_sculk/lang/zh_cn.json",
+            "hash": "9640ce5b57a7d23596099be5dd1f93dbe3f613b5"
+        },
+        {
+            "path": "kubejs/assets/kaleidoscope_world_liquor/lang/zh_cn.json",
+            "hash": "56f3a0b30f594484c62b3c4c5a536f9894d3a850"
+        },
+        {
+            "path": "kubejs/assets/kubejs/lang/zh_cn.json",
+            "hash": "94bc4d5844f29404748156b01647ac1671e891c7"
+        },
+        {
+            "path": "kubejs/assets/ldlib2/lang/zh_cn.json",
+            "hash": "23135063ab291c17000fb13f8c6df406414d78b3"
+        },
+        {
+            "path": "kubejs/assets/maid_restaurant/lang/zh_cn.json",
+            "hash": "29a9979881aa53c208f69e9b46f46972b3a424e3"
+        },
+        {
+            "path": "kubejs/assets/minihud/lang/zh_cn.json",
+            "hash": "530a46083f081a8bb5d67eaa8d6837819fe9930b"
+        },
+        {
+            "path": "kubejs/assets/natures_spirit/lang/zh_cn.json",
+            "hash": "4f193e03214c185a8dd0b8d63cb9784f09302ce8"
+        },
+        {
+            "path": "kubejs/assets/notenoughanimations/lang/zh_cn.json",
+            "hash": "3ad8151f0a955c13c467dcdef3d8ba983a313c11"
+        },
+        {
+            "path": "kubejs/assets/observable/lang/zh_cn.json",
+            "hash": "936f904d4ca501cf0c41ba5c3d92690d7f085bd1"
+        },
+        {
+            "path": "kubejs/assets/oelib/lang/zh_cn.json",
+            "hash": "e562c713647839873f556707d6d0a84f452d360a"
+        },
+        {
+            "path": "kubejs/assets/openpartiesandclaims/lang/zh_cn.json",
+            "hash": "3e7a4bf5c7aeb4af4f6fe240e9f1fd5d9de6b0f5"
+        },
+        {
+            "path": "kubejs/assets/patchouli/lang/zh_cn.json",
+            "hash": "1ed5a96770f4cf35eb139a2ff1d1884c8df2fe54"
+        },
+        {
+            "path": "kubejs/assets/pfsable/lang/zh_cn.json",
+            "hash": "8077575c40298dd2d92fcf391e06e974334b3c0a"
+        },
+        {
+            "path": "kubejs/assets/pipeorgans/lang/zh_cn.json",
+            "hash": "396fc88ad9e7316508178af51c8721909c26e4d3"
+        },
+        {
+            "path": "kubejs/assets/plonk/lang/zh_cn.json",
+            "hash": "04f468f4fd7e88264ce8cf7672309415055acfee"
+        },
+        {
+            "path": "kubejs/assets/powergrid/lang/zh_cn.json",
+            "hash": "1b4674478c5e6b2a64dccbaf84bdf7bf77a26a2e"
+        },
+        {
+            "path": "kubejs/assets/presencefootsteps/lang/zh_cn.json",
+            "hash": "1ed43e24054f78dc735d48b8ecfb08aa290ad01e"
+        },
+        {
+            "path": "kubejs/assets/probejs/lang/zh_cn.json",
+            "hash": "67955bb61e6e35b40a177eed4c72e606d0b1868a"
+        },
+        {
+            "path": "kubejs/assets/railways/lang/zh_cn.json",
+            "hash": "d3c66db696bc66a74aaf26a8575678e284be03d9"
+        },
+        {
+            "path": "kubejs/assets/sable/lang/zh_cn.json",
+            "hash": "39553e386b055a85a89806f8dc62baab70eeb176"
+        },
+        {
+            "path": "kubejs/assets/sable_schematic_api/lang/zh_cn.json",
+            "hash": "778f9b8b88bd26321f73c2a6f043cddf9a7cdfb7"
+        },
+        {
+            "path": "kubejs/assets/sclp/lang/zh_cn.json",
+            "hash": "3a1829a5785e59da0a3a338c4441a50a5acc59e8"
+        },
+        {
+            "path": "kubejs/assets/sereneseasons/lang/zh_cn.json",
+            "hash": "fbf1a20f9146143e8d34b39583f8fa076db95ac7"
+        },
+        {
+            "path": "kubejs/assets/simulatedcoasters/lang/zh_cn.json",
+            "hash": "83c99b84537eda0f8f81c86eefbd9068c0a9d7cd"
+        },
+        {
+            "path": "kubejs/assets/simurail/lang/zh_cn.json",
+            "hash": "ee3d628d64ef7c509dab1740cf6b6758c3a5b2e4"
+        },
+        {
+            "path": "kubejs/assets/synaxis/lang/zh_cn.json",
+            "hash": "fc7ef95f5aea953797612ce82fbc5e874ee9d3b5"
+        },
+        {
+            "path": "kubejs/assets/tectonic/lang/zh_cn.json",
+            "hash": "be4bd3cf5b409f535916488528c9acb0c09870da"
+        },
+        {
+            "path": "kubejs/assets/terrablender/lang/zh_cn.json",
+            "hash": "f59c8aa669cefc8374444e57183bb759b0480f8c"
+        },
+        {
+            "path": "kubejs/assets/tide/lang/zh_cn.json",
+            "hash": "128bdd985a4d2442bd75cab0e1023aa00cc84a78"
+        },
+        {
+            "path": "kubejs/assets/tracks/lang/zh_cn.json",
+            "hash": "40036ab8c53fe1f66958289d1f3a691d5cdb7600"
+        },
+        {
+            "path": "kubejs/assets/trashslot/lang/zh_cn.json",
+            "hash": "602f621e43d641ad9bc53725d31eb690914e24be"
+        },
+        {
+            "path": "kubejs/assets/travelersbackpack/lang/zh_cn.json",
+            "hash": "9129e03401dfdd200dbcd99cf1261ac962b154ab"
+        },
+        {
+            "path": "kubejs/assets/twilightdelight/lang/zh_cn.json",
+            "hash": "b03af885bf72757532eee748968db7228099766a"
+        },
+        {
+            "path": "kubejs/assets/twilightforest/lang/zh_cn.json",
+            "hash": "82840a74ddf9b00ad1f18869b95cfc2fb2dd1e20"
+        },
+        {
+            "path": "kubejs/assets/xaerominimap/lang/zh_cn.json",
+            "hash": "56c9b29b53324fd303bd5d9a3a0527d00d1523b2"
+        },
+        {
+            "path": "kubejs/assets/xaeroworldmap/lang/zh_cn.json",
+            "hash": "0dbadcdbe4cd97f0feb0ebf8a508373144cb40a7"
+        },
+        {
+            "path": "kubejs/assets/yuushya/lang/zh_cn.json",
+            "hash": "57adb5fc75da1f529704b3da564e32ad5ad49fab"
+        },
+        {
+            "path": "kubejs/assets/zume/lang/zh_cn.json",
+            "hash": "564e95eccc9773a2be3317ae1efa2b992623e557"
+        },
+        {
+            "path": "kubejs/client_scripts/main.js",
+            "hash": "e6f23e21b25a366f2216fbf7da00ed7d34542f20"
+        },
+        {
+            "path": "kubejs/config/client.json",
+            "hash": "543ce77f954453d39da0ef6adad3f5e427fd4d8a"
+        },
+        {
+            "path": "kubejs/config/common.json",
+            "hash": "72bc0862d970e44dd5075bef3e74110f69d65a7d"
+        },
+        {
+            "path": "kubejs/config/probe-settings.json",
+            "hash": "5202224397edb2f8d353d3ff5cc105954f2ff56f"
+        },
+        {
+            "path": "kubejs/config/web_server.json",
+            "hash": "42cb29168c5b98d199636c29feb8da8abe5e779f"
+        },
+        {
+            "path": "kubejs/data/custom_pressure/dimension_physics/overworld.json",
+            "hash": "6ee0f19052051ce8cd3d6767fba4d2cdf4ae62d8"
+        },
+        {
+            "path": "kubejs/data/oef/replacements/replacements.json",
+            "hash": "c333e0891fd6808ff573d219bc4618cdc1c848ca"
+        },
+        {
+            "path": "kubejs/data/oei/replacements/food_unification.json",
+            "hash": "d9b542e9567336fa6a8449484e13ff31984ae3b3"
+        },
+        {
+            "path": "kubejs/data/oei/replacements/replacements.json",
+            "hash": "dff5c778af7aa24b9a73ebe3f625f671227277e2"
+        },
+        {
+            "path": "kubejs/server_scripts/golden_dandelion.js",
+            "hash": "8c2486ff6c8bfbd666c91dda172d77c0ec5520e1"
+        },
+        {
+            "path": "kubejs/server_scripts/main.js",
+            "hash": "6249ded51466cfc7b94ae9796f8c2caec5dac539"
+        },
+        {
+            "path": "kubejs/server_scripts/ore.js",
+            "hash": "2577d9ba6db5dec996b0b65ea43d0a98ef2ad54a"
+        },
+        {
+            "path": "kubejs/server_scripts/recipe_enchanted_golden_apple.js",
+            "hash": "2c717d79735fe51b8a2910f58a0515be372feedd"
+        },
+        {
+            "path": "kubejs/server_scripts/recipes_create.js",
+            "hash": "6e4a0c7ce9860a37da71561bcca8933675436ecf"
+        },
+        {
+            "path": "kubejs/server_scripts/recipes_ore.js",
+            "hash": "6f56a20d8405a5e7edf4eeb9f3e02c9e7719bdd8"
+        },
+        {
+            "path": "kubejs/server_scripts/recipes_tf.js",
+            "hash": "5a4d2d7b9b0f4ae53091f9712ebe54d33e019a36"
+        },
+        {
+            "path": "kubejs/startup_scripts/dragon_head.js",
+            "hash": "1c1be8a32714fea7984db18db2d339c627bcbec1"
+        },
+        {
+            "path": "kubejs/startup_scripts/golden_dandelion.js",
+            "hash": "17393c0c72f041664b90f485b3458c9f073e19d1"
+        },
+        {
+            "path": "kubejs/startup_scripts/main.js",
+            "hash": "05ec115c372985dc9f77dd2513933aa8e90eba61"
+        },
+        {
+            "path": "mods/-越肩-ShoulderSurfingAERO-NF-1.21.1-26.5.2.jar",
+            "hash": "2ab31d308a9eb6f2c938a1e1c4ba67b9620b9832"
+        },
+        {
+            "path": "mods/2032-world-height-1.1.jar",
+            "hash": "6e5e687b1fe50f3fc47d6abdd2167dd8d5abe344"
+        },
+        {
+            "path": "mods/AeroEngine-1.3.0.jar",
+            "hash": "071a030a04ee45ccd611f719e7095341ddaf30af"
+        },
+        {
+            "path": "mods/AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar",
+            "hash": "c79ab328b2c46068effebdcb3f26e98dc4404cb0"
+        },
+        {
+            "path": "mods/BetterF3-11.0.3-NeoForge-1.21.1.jar",
+            "hash": "8fa17df26d3650416bc124be7a264bc1566a3b26"
+        },
+        {
+            "path": "mods/BetterGrassify-1.7.0+neoforge.1.21.1.jar",
+            "hash": "7cf1376b4cb66721cf4795d55eb5a88123591bae"
+        },
+        {
+            "path": "mods/BetterTab-neoforge-1.21.1-1.0.0+build.11.jar",
+            "hash": "9d8396264e0f99db6c33e7ec6a5d4f5d72d0fa94"
+        },
+        {
+            "path": "mods/BiomesOPlenty-neoforge-1.21.1-21.1.0.14.jar",
+            "hash": "294ae397c011980623bf155f9dfce82bb81865a0"
+        },
+        {
+            "path": "mods/Chunky-NeoForge-1.4.23.jar",
+            "hash": "ab0c74743a653020fe2dfc4986b43e893947f3e9"
+        },
+        {
+            "path": "mods/Create Encased-1.21.1-1.9.0-ht3.jar",
+            "hash": "bc749c8ec3ad4fef7d5a052c904008971158f274"
+        },
+        {
+            "path": "mods/CreateAeronauticsVariableWeightBlock-1.21.1-1.0.0.jar",
+            "hash": "5aadfd592bd61df5760b4834dd84f337b4593347"
+        },
+        {
+            "path": "mods/CreateCyberGoggles-1.21.1-8.3.15-NeoForge.jar",
+            "hash": "1c674b58f8183157b40b2b31db54154b68366f81"
+        },
+        {
+            "path": "mods/CreateDragonsPlus-1.11.7b.jar",
+            "hash": "36085362f1123273a2d8e8e7e8af86c32ac10251"
+        },
+        {
+            "path": "mods/CreativeCore_NEOFORGE_v2.13.44_mc1.21.1.jar",
+            "hash": "ed55360f72cd6666a1b191506a6270e05ef1ef49"
+        },
+        {
+            "path": "mods/Design-n-Decor-1.21.1-2.2b.jar",
+            "hash": "ff5f0411a3d82e15d69b65617128f6d54e818e1b"
+        },
+        {
+            "path": "mods/Ecliptic-Seasons-MultiMod-Patch-1.21.1-neoforge-0.32.0-beta.jar",
+            "hash": "b3c2154d68cbf2f7e6b52a5a33313e21d9432941"
+        },
+        {
+            "path": "mods/EclipticSeasons-1.21.1-neoforge-0.14.99-beta-2.jar",
+            "hash": "35231e62dc2984b4890ee718613d595ec6d48032"
+        },
+        {
+            "path": "mods/FarmersDelight-1.21.1-1.3.3.jar",
+            "hash": "55ea87dec84a632690a748857db08a35941980b6"
+        },
+        {
+            "path": "mods/FramedBlocks-10.6.1.jar",
+            "hash": "3007be0007d09c0225ca33b647461f342eac0503"
+        },
+        {
+            "path": "mods/GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+            "hash": "e3d4bb80a06f619be989ab529d0cd4e33e076943"
+        },
+        {
+            "path": "mods/IMBlocker-5.5.4-neoforge+1.20.6-1.21.8.jar",
+            "hash": "4910d4aeab9e5d23b4facb592a18136e64caf3e5"
+        },
+        {
+            "path": "mods/ImmediatelyFast-NeoForge-1.6.13+1.21.1.jar",
+            "hash": "cfc87deced26f78e46143fe5f0a33597d06845a8"
+        },
+        {
+            "path": "mods/InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar",
+            "hash": "b09d7c0820c233ea34af54d0a3ab7ed510b32dcc"
+        },
+        {
+            "path": "mods/Ixeris-4.6.5+1.21.1-neoforge.jar",
+            "hash": "390d3b9f0486d6637109683913f22a958d870af2"
+        },
+        {
+            "path": "mods/Jade-1.21.1-NeoForge-15.10.6.jar",
+            "hash": "88ee316e68900080b017f60c12162e2731924cf8"
+        },
+        {
+            "path": "mods/JadeAddons-1.21.1-NeoForge-6.1.0.jar",
+            "hash": "d0aef07e67f9e2dd7ae68f9f27d845511d8eaff3"
+        },
+        {
+            "path": "mods/MaidUseHandCrank_1.6.2-neoforge_21.1.219-1.21.1.jar",
+            "hash": "b6105222645e2946bb93186d133e8e03baa61e88"
+        },
+        {
+            "path": "mods/NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+            "hash": "e19721873bebc4dbc1674bb101af39d0ea406b95"
+        },
+        {
+            "path": "mods/New Visual Keybing-1.21.1-neoforge-0.6.16.jar",
+            "hash": "19e9ece8b58df07833896e53624f126365cbc7ac"
+        },
+        {
+            "path": "mods/OELib-neoforge-1.21.1-0.2.3.jar",
+            "hash": "8457b2423f62c896ef8c290ab511a0a71b442750"
+        },
+        {
+            "path": "mods/Patchouli-1.21.1-93-NEOFORGE.jar",
+            "hash": "5413bb9b8fc35ebe46b06b48bf9afafbd8471140"
+        },
+        {
+            "path": "mods/Presence Footsteps [NEOFORGE]+1.21-1.1.0.jar",
+            "hash": "56cf3b5a6bd26d65452b3124350f8014c2652d32"
+        },
+        {
+            "path": "mods/ProbeJS-8.0.3.jar",
+            "hash": "f0529482eff9596fa01de8a34abdce50529bdf55"
+        },
+        {
+            "path": "mods/RollingGate-neoforge-1.21.1-1.1.0+build.66.jar",
+            "hash": "b87be133edfa10aed453bf909a7d7dea8b1f4f4c"
+        },
+        {
+            "path": "mods/SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
+            "hash": "127e4a3e699dafebc512e1fa7983f245b49cb420"
+        },
+        {
+            "path": "mods/SiliconeDolls-neoforge-1.21.1-1.0.0+build.65.jar",
+            "hash": "2adc3b1d1d5904a83a07c4acd0a9bdfc3a70144f"
+        },
+        {
+            "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+            "hash": "744394d979b422be560babf9df7a6800ede9ac5b"
+        },
+        {
+            "path": "mods/Terralith_1.21.1_v2.6.2_Neoforge.jar",
+            "hash": "d4a9fe71b841f70edfb4b280f9bf5c58e4a28224"
+        },
+        {
+            "path": "mods/aeronautics_windsound-1.0.1.jar",
+            "hash": "85217302bce01231cbed608a2edfecc1f2cb2a81"
+        },
+        {
+            "path": "mods/aeroworks-1.5.0.jar",
+            "hash": "0dffcd74781e2f7d0495c4aad1165eb3473476ec"
+        },
+        {
+            "path": "mods/alltheleaks-1.1.12+1.21.1-neoforge.jar",
+            "hash": "d69b9e98e957418ca0ab768b79983e68ffbfcd49"
+        },
+        {
+            "path": "mods/aotake_sweep-neoforge-1.21.1-1.1.1.jar",
+            "hash": "4af113e160a28b3f570b6e0d0e1e757183be3288"
+        },
+        {
+            "path": "mods/appleskin-neoforge-mc1.21-3.0.9.jar",
+            "hash": "81cf0e668f991f83ac8820c386fbd6c9c3602246"
+        },
+        {
+            "path": "mods/architectury-13.0.11-neoforge.jar",
+            "hash": "008656a0702801174b8ec245ed7aad1921d6e9f1"
+        },
+        {
+            "path": "mods/ars_creo-1.21.1-5.4.0.jar",
+            "hash": "22a6afd4fbe76354acc9c1ba076c89a94d120d94"
+        },
+        {
+            "path": "mods/ars_elemental-1.21.1-0.7.10.1.jar",
+            "hash": "a1e4021177aae0e16c1f7c6487a82f0b68bbade3"
+        },
+        {
+            "path": "mods/ars_nouveau-1.21.1-5.11.3.jar",
+            "hash": "0af12dd7fda63a4261ceb302c9bb57fc235641c6"
+        },
+        {
+            "path": "mods/arsdelight-2.2.2.jar",
+            "hash": "29fcc302f3b12963bc0042bd553f5dc6a09bcf93"
+        },
+        {
+            "path": "mods/balm-neoforge-1.21.1-21.0.65.jar",
+            "hash": "69e0b3b69dd23c132e85b7e82310f45ae96b263d"
+        },
+        {
+            "path": "mods/barbequesdelight-1.3.0.jar",
+            "hash": "59e7f6d708e0db4343b4f02c96164a8526c81414"
+        },
+        {
+            "path": "mods/bellsandwhistles-0.4.7-1.21.1.jar",
+            "hash": "85944080f8bd47dad64a8193a70662cd9ddbb200"
+        },
+        {
+            "path": "mods/better_carryon_maid-1.21.1-1.0.2.jar",
+            "hash": "9dce52c197fe2646c54f549ac728facd965c33fe"
+        },
+        {
+            "path": "mods/betterdays-1.21.1-3.3.6.3-NEOFORGE.jar",
+            "hash": "0beeb796055f8abdebb9304fe26b655068a52a9c"
+        },
+        {
+            "path": "mods/bocchud-0.4.1+mc1.21.1.jar",
+            "hash": "2191c8a8a763e1d22af78226a4027ac5c3676a5e"
+        },
+        {
+            "path": "mods/carryon-neoforge-1.21.1-2.2.6.13.jar",
+            "hash": "2ceb0d9284525b6cb2a214c88cf6511cab91f601"
+        },
+        {
+            "path": "mods/cloth-config-15.0.140-neoforge.jar",
+            "hash": "c3e5733ba4503b102589a026000fd5ce0212f6f2"
+        },
+        {
+            "path": "mods/copycats-3.0.8+mc.1.21.1-neoforge.jar",
+            "hash": "ee0cddd7053622aa0a6964e7367bd69795273e7d"
+        },
+        {
+            "path": "mods/corpse-neoforge-1.21.1-1.1.13.jar",
+            "hash": "a735362c4e5ef705956f1fcbac01fb9f1aae5b8e"
+        },
+        {
+            "path": "mods/create-1.21.1-6.0.10.jar",
+            "hash": "0e97e49837bed766e6f28a4c95b04885d6acc353"
+        },
+        {
+            "path": "mods/create-aeronautics-bundled-1.21.1-1.3.1.jar",
+            "hash": "15d273d891578d583aa142354b63ed70f87fee62"
+        },
+        {
+            "path": "mods/create-central-kitchen-2.6.0.jar",
+            "hash": "f0dd0161de70f2177ba2e06c68ef0dbea08cdf2f"
+        },
+        {
+            "path": "mods/create-confectionery1.21.1_v1.1.3b.jar",
+            "hash": "47e235efa862c5cbea53fdf8346d4c499674defa"
+        },
+        {
+            "path": "mods/create-enchantment-industry-2.5.3.jar",
+            "hash": "91efc293e6fbdc20a4ef50a27f3ab5b593d480d1"
+        },
+        {
+            "path": "mods/create-integrated-farming-1.3.3b.jar",
+            "hash": "344990890a4d1d78e936a41176fe520564f8ad53"
+        },
+        {
+            "path": "mods/create-shimmer-1.3.1.jar",
+            "hash": "68b9c49eace696486520970357f87aa8450ce5de"
+        },
+        {
+            "path": "mods/create-stuff-additions1.21.1_v2.1.4b.jar",
+            "hash": "246915560f74b92e0186c22da26be8995380c443"
+        },
+        {
+            "path": "mods/create_aeronautics_transmission_linkage-0.2.7.jar",
+            "hash": "dee7a9879b27db5be4831d140e39aba3a051e3ae"
+        },
+        {
+            "path": "mods/create_bb-1.0.8-1.21.1.jar",
+            "hash": "59220d82cf962773e26778fc24c454e761368092"
+        },
+        {
+            "path": "mods/create_connected-1.3.2-mc1.21.1.jar",
+            "hash": "920de05b13c32fe1417d0aec0615057aa480cc8d"
+        },
+        {
+            "path": "mods/create_fantasizing-1.21.1-1.2.0-b3.jar",
+            "hash": "aac8f1460d2b5d21019c8b944b26dc0c184952c0"
+        },
+        {
+            "path": "mods/create_jetpack-forge-5.2.1.jar",
+            "hash": "cbd949c62723d805c2ab019def6e6718c50037b8"
+        },
+        {
+            "path": "mods/create_jetpack_curios-1.2.0-neoforge-1.21.1.jar",
+            "hash": "5146fc22a9385de8103b5ca0151f80dcd0f03978"
+        },
+        {
+            "path": "mods/create_mobile_packages-1.21.1-0.7.7.jar",
+            "hash": "b0eb4d3ae9641c06754b20b9621f23bd607373a8"
+        },
+        {
+            "path": "mods/create_portable_packaging-0.1.2.jar",
+            "hash": "33331d6dd814f2dd274dfa13fc546a7f9be6caa6"
+        },
+        {
+            "path": "mods/create_power_loader-2.0.5-mc1.21.1.jar",
+            "hash": "5bd3ecef6fc66985e6fdf416706c98fb774ba03d"
+        },
+        {
+            "path": "mods/create_radar-0.4.9.4-1.21.1.jar",
+            "hash": "9726fced4bf86c9e2c0ea09b35bc39ed3ac007b6"
+        },
+        {
+            "path": "mods/create_rustic_structures-1.0.1-neoforge-1.21.1.jar",
+            "hash": "f8f8dea6a23f697c3f27196627bdf77d9147b8e4"
+        },
+        {
+            "path": "mods/create_things_and_misc-4.1.1-neoforge-1.21.1.jar",
+            "hash": "d483dc9564ec37db97dfca306e439c998a7366bb"
+        },
+        {
+            "path": "mods/createadditionallogistics-1.21.1-1.4.5.jar",
+            "hash": "6acf4d30516b6bf66928aa5d79d6bac6283de44e"
+        },
+        {
+            "path": "mods/createbetterfps-1.21.1-1.1.4.jar",
+            "hash": "c594e20659b73a67bd0b0c2de45b29b78a2eb160"
+        },
+        {
+            "path": "mods/createbigcannons-5.11.7+mc.1.21.1.jar",
+            "hash": "c90ee0b2142e2c58d233e150cb3a24c7cb07eb2d"
+        },
+        {
+            "path": "mods/createbuttercat-1.2.jar",
+            "hash": "559aebb5b6a2462c54c02735bcc70b414d627246"
+        },
+        {
+            "path": "mods/createcafe-1.4.3.jar",
+            "hash": "2a9fe857d415bacae3635b19b01e0f5897d15bc7"
+        },
+        {
+            "path": "mods/createcraftedbeginning-0.0.10.jar",
+            "hash": "836d206a852b7449896d513f721f002a5f8e2da7"
+        },
+        {
+            "path": "mods/createdeco-2.1.3.jar",
+            "hash": "93d9eff58b46c6953e907d071e6be4e3ce07be38"
+        },
+        {
+            "path": "mods/createdieselgenerators-1.21.1-1.3.15.jar",
+            "hash": "7f751dabfa83c141c1d13025cd16f06553ba459b"
+        },
+        {
+            "path": "mods/createfactorycontroller-1.1.1-neoforge-1.21.1.jar",
+            "hash": "5005aacb17acf99f043700dced3f60937176ae3d"
+        },
+        {
+            "path": "mods/createfirefightingadd-0.2.1-beta.jar",
+            "hash": "e53d6226cec82e5d2f34d225c413c2e9ebaa4e6a"
+        },
+        {
+            "path": "mods/creategearsandtavern-1.1.8.jar",
+            "hash": "92aa31ddfb49c27a80c95d15031d93bd4ba7e697"
+        },
+        {
+            "path": "mods/createimp-1.4.1.jar",
+            "hash": "9b085dedfac7f918069907f390791aff5e81494d"
+        },
+        {
+            "path": "mods/createliquidfuel-2.1.1-1.21.1.jar",
+            "hash": "a29f65eb4bbded2ca977a1453f90b6570e812b85"
+        },
+        {
+            "path": "mods/createoreexcavation-1.21-1.6.8.jar",
+            "hash": "9a76b86ec7470d4bd7332f22d6e50a3693098c10"
+        },
+        {
+            "path": "mods/createphantom-1.0.1.jar",
+            "hash": "26d1e28162fbba8af7fb46b4109a08dd792eb77a"
+        },
+        {
+            "path": "mods/createprism-1.2.2.jar",
+            "hash": "2c911b9b9abaac0572f0935ccfc9ae91c02eb4c7"
+        },
+        {
+            "path": "mods/createpropulsion-1.1.5.jar",
+            "hash": "928e9428ee92d07426c296b04a7fffb1e737e290"
+        },
+        {
+            "path": "mods/createrailwaysnavigator-neoforge-1.21.1-beta-0.9.1-C6.jar",
+            "hash": "bc8cc2ff3ce0c1abbe8ae9e24b4c4a502ea9602d"
+        },
+        {
+            "path": "mods/curios-neoforge-9.5.1+1.21.1.jar",
+            "hash": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4"
+        },
+        {
+            "path": "mods/dragonlib-neoforge-1.21.1-beta-3.0.28.jar",
+            "hash": "32ad20ba9a28629ecf47e0bfeb911f6c53bd1b7c"
+        },
+        {
+            "path": "mods/drivebywire-0.3.0.jar",
+            "hash": "b8b01f1e2d6fad22c3fa5f4a566262edbb9fda16"
+        },
+        {
+            "path": "mods/dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
+            "hash": "35b17e95b2b65930116ccc83e0cc358ac1bfcf9e"
+        },
+        {
+            "path": "mods/ecliptic-seasons-serene-api-bridge-1.21.1-neoforge-10.1.0.3-patch11.jar",
+            "hash": "cd12d7742ca7a73929b2605ce26cbb682f52cbbf"
+        },
+        {
+            "path": "mods/ends_delight-2.6.1+neoforge.1.21.1.jar",
+            "hash": "0613a535d82b7a3d51d0caf0e04b082cb4c062e9"
+        },
+        {
+            "path": "mods/epicterrain-0.1.4.jar",
+            "hash": "a71fa3df06fb56441e1d9b443a4b4245056a7dfa"
+        },
+        {
+            "path": "mods/firstperson-neoforge-2.7.2-mc1.21.1.jar",
+            "hash": "8faf96d7c3c12eaec819b4e273e58c048e8de125"
+        },
+        {
+            "path": "mods/flerovium-neoforge-1.21.1-1.1.2-all.jar",
+            "hash": "31491e08947da57d4af6c48e8d3237cc6d4009c1"
+        },
+        {
+            "path": "mods/fluidlogistics-1.2.8.jar",
+            "hash": "573bc57811d1ede98494690e6fba1172c17136aa"
+        },
+        {
+            "path": "mods/forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar",
+            "hash": "1a2c41d2efbe1c60159b90a165557e7c06d03a5c"
+        },
+        {
+            "path": "mods/fruitsdelight-1.2.14.jar",
+            "hash": "9e13ddd63337a180c6e69c0b3c7e622f1d27c71a"
+        },
+        {
+            "path": "mods/fusion-1.3.14a-neoforge-mc1.21.1.jar",
+            "hash": "dc94e22df06f01ec63d2312a4f6a0b4b4a140769"
+        },
+        {
+            "path": "mods/geckolib-neoforge-1.21.1-4.9.2.jar",
+            "hash": "14c64013cadee7d28f3685f94350f9a4d2ec6d86"
+        },
+        {
+            "path": "mods/gravitation-neoforge-1.21.1-0.0.7.jar",
+            "hash": "e1b7d8176b5d1b26d597e1a52b3680c7e084ef49"
+        },
+        {
+            "path": "mods/happy_ghast_legacy-1.8-1.21.1-neoforge.jar",
+            "hash": "9dd70de85e18061cd68e4568a76db064b5729bd6"
+        },
+        {
+            "path": "mods/immortalers_delight-1.21.1-neoforge-1.0.7.jar",
+            "hash": "cd0a6662d10c9cc114d9cab6754907fe911ed71c"
+        },
+        {
+            "path": "mods/interiors-1.21.1-neoforge-0.6.1.jar",
+            "hash": "a558777ef4510da2f4d32ca3da6ac7384c9a9940"
+        },
+        {
+            "path": "mods/iris-flywheel-compat-NeoForge-2.4.0.jar",
+            "hash": "b8630517b6017f4d075ce594e5ef333b38748029"
+        },
+        {
+            "path": "mods/iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+            "hash": "1bd129cf7bce65d6b1c0543045f0620c98a0f885"
+        },
+        {
+            "path": "mods/irisveil-0.3.0.jar",
+            "hash": "246f6c6dbd4fc9d3c1def54e0a090c7cbd1a83a7"
+        },
+        {
+            "path": "mods/jecharacters-1.21.1-neoforge-4.5.27.jar",
+            "hash": "e7baf37c0431be1960005a5e8929cb6b5899d416"
+        },
+        {
+            "path": "mods/jei-1.21.1-neoforge-19.39.0.369.jar",
+            "hash": "1fe9d5355563bd624949f05a76ef64ea787c7252"
+        },
+        {
+            "path": "mods/kaleidoscope_bloodwine-1.1.0.jar",
+            "hash": "a6949c4262c7ccc77458eaf27513f1bfa0b47f56"
+        },
+        {
+            "path": "mods/kaleidoscope_chinesefood-1.1.10-neoforge+1.21.1.jar",
+            "hash": "c6f23b3fb1faa3dbcfb3fa2c0779e67d7f83e0c0"
+        },
+        {
+            "path": "mods/kaleidoscope_compat-2.9.7-neoforge+mc1.21.1.jar",
+            "hash": "a69492f0a085eebb37f64e606bf2065aa66badbf"
+        },
+        {
+            "path": "mods/kaleidoscope_dim_wine-1.5.3-mc1.21.1-neoforge.jar",
+            "hash": "bcacdab9ba6d2117eccad6f4480e1de652c261e8"
+        },
+        {
+            "path": "mods/kaleidoscope_end-1.0.14-neoforge+mc1.21.1.jar",
+            "hash": "4dd55ea7902260f7938827e41c12320dad6a5a7a"
+        },
+        {
+            "path": "mods/kaleidoscope_grilling-1.1.1-neoforge1.21.1.jar",
+            "hash": "fe584c6a1affd3ff4a6f3a7c1536958da97c1f14"
+        },
+        {
+            "path": "mods/kaleidoscope_nether-1.1.4-neoforge+mc1.21.1.jar",
+            "hash": "b860c9a32bcbb991aceed2effff1a1a8e6dbec68"
+        },
+        {
+            "path": "mods/kaleidoscope_painting_extension-neoforge-1.21.1-2.1.0.jar",
+            "hash": "3e7db03ea2eb3d5e8d94d19ce50e21e5541fcae2"
+        },
+        {
+            "path": "mods/kaleidoscope_sculk-1.2.jar",
+            "hash": "ce46dad3264ec433f2e320c0b1ab90be14357616"
+        },
+        {
+            "path": "mods/kaleidoscope_world_liquor-1.1.8-neoforge+1.21.1.jar",
+            "hash": "4f0c5ec57881f67bec43e5c0b8222e0ea8c6437f"
+        },
+        {
+            "path": "mods/kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar",
+            "hash": "a08a4436ebfebee7b56beb776ea8aada489ee0ab"
+        },
+        {
+            "path": "mods/kaleidoscopedoll-1.4.1-neoforge+mc1.21.1.jar",
+            "hash": "23cb712e078ac6025035d26332d5c5b044c985f5"
+        },
+        {
+            "path": "mods/kaleidoscopetavern-1.2.0-neoforge+mc1.21.1.jar",
+            "hash": "bf026cb97921749adf6155181d2f9639d37a7261"
+        },
+        {
+            "path": "mods/kotlinforforge-5.12.0-all.jar",
+            "hash": "d10d062caf1aad9aec82d7852f2fee1781735c1f"
+        },
+        {
+            "path": "mods/kubejs-neoforge-2101.7.2-build.374.jar",
+            "hash": "1e921f327c8c5c9d64b33326ede412d87bfbd491"
+        },
+        {
+            "path": "mods/ldlib2-neoforge-1.21.1-2.2.37-all.jar",
+            "hash": "fd914403c69e451cd7446908d5730cac7412bf54"
+        },
+        {
+            "path": "mods/libIPN-neoforge-1.21.1-6.6.3.jar",
+            "hash": "baab9e8cae3d2b77b5e172b5694e465ee9f30d4a"
+        },
+        {
+            "path": "mods/lithostitched-1.8.0+beta4-neoforge-21.1.jar",
+            "hash": "0edda78ec8500143cca898881c476b2b04dac75a"
+        },
+        {
+            "path": "mods/liubai-1.0.1-1.21.1.jar",
+            "hash": "7ddd27deda9a3bb690dc9b3950f8a927de34e5f6"
+        },
+        {
+            "path": "mods/lukis-ancient-cities-v1.2.jar",
+            "hash": "2c8c3ae40b48a9a762e1cc51fa6f87e9642d5e6e"
+        },
+        {
+            "path": "mods/lukis-grand-capitals-1.1.3.jar",
+            "hash": "a07986ac59268f1343737b81acd24ad34e5371ca"
+        },
+        {
+            "path": "mods/lukis-woodland-mansions-v1.0-1.21-1.21.4.jar",
+            "hash": "10b592fd66a2d347448e9a0e0df48df6f6a1a209"
+        },
+        {
+            "path": "mods/mafglib-0.4.3+mc1.21.1.jar",
+            "hash": "9f62df832b1d5c9fe1aead873bd65cb8defacac7"
+        },
+        {
+            "path": "mods/maid_restaurant-0.2.9.jar",
+            "hash": "a6e7157e9c22cf40080b083fdabc20f147b8b628"
+        },
+        {
+            "path": "mods/maidsoulkitchen-1.21.1-beta-v0.1.4.jar",
+            "hash": "59fd41b4abe99162afd3afd71bc78effd34cf9d2"
+        },
+        {
+            "path": "mods/natures_spirit-2.2.5-1.21.1.jar",
+            "hash": "153679dc2dd4601b40beed834799ba1d7c05b08a"
+        },
+        {
+            "path": "mods/nebl-21.1.12-neoforge+1.21.1.jar",
+            "hash": "b22a4b1af1fe5729af3dc726b9a80ec66c9b889c"
+        },
+        {
+            "path": "mods/neo-voxy-0.2.16-beta.jar",
+            "hash": "7407737e8b804e890b20562c004abc81752f9c8d"
+        },
+        {
+            "path": "mods/net_music_list-4.3.jar",
+            "hash": "27e86b4fd18f9f12e459a18ab1ab163c996c134b"
+        },
+        {
+            "path": "mods/netmusic-1.5.1-neoforge+mc1.21.1.jar",
+            "hash": "2cfbef4586208b5a91bdeef75d7e3bc19a820d07"
+        },
+        {
+            "path": "mods/notenoughanimations-neoforge-1.12.4-mc1.21.1.jar",
+            "hash": "b509863deaa27890f8db600f612966a07490a6cd"
+        },
+        {
+            "path": "mods/observable-5.4.4.jar",
+            "hash": "e17417eee213aac8291ff8bad1c6a5f710636b72"
+        },
+        {
+            "path": "mods/oneenoughblock-neoforge-1.21.1-1.1.2-hotfix.jar",
+            "hash": "6480166a84d319555b071af2eead3a50f8b6db78"
+        },
+        {
+            "path": "mods/oneenoughfluid-neoforge-1.21.1-1.1.1-hotfix.jar",
+            "hash": "f90ad390dee0f1cb7a242c733c07faede76f44b1"
+        },
+        {
+            "path": "mods/oneenoughitem-neoforge-1.21.1-1.0.8.jar",
+            "hash": "c1acb64060602f5a9c7397224832d1ef75f9146b"
+        },
+        {
+            "path": "mods/open-parties-and-claims-neoforge-1.21.1-0.30.3.jar",
+            "hash": "07d0dc7f42ad988065b1280d1452f3fed00f3fba"
+        },
+        {
+            "path": "mods/pfsable-1.0.jar",
+            "hash": "a216dfce15550c50436012283e49606c67a87e29"
+        },
+        {
+            "path": "mods/pipeorgans-0.8.2+1.21.1.jar",
+            "hash": "112adb2a6f8d9ff60ebd52602f1b01ea96a37920"
+        },
+        {
+            "path": "mods/plonk-1.21.1-10.0.6-neo.jar",
+            "hash": "6dc6134a0dffc6339ae6525d2c0437a03dcbb39b"
+        },
+        {
+            "path": "mods/polymorph-neoforge-1.1.0+1.21.1.jar",
+            "hash": "84f8c539fa326dc723ae62b7a6916d6b01982d07"
+        },
+        {
+            "path": "mods/powergrid-mc1.21.1-0.6.1.jar",
+            "hash": "bb0139368f141b0d3a60707ef81c8e010cc72df9"
+        },
+        {
+            "path": "mods/railways-0.3.0-beta.2+neoforge-mc1.21.1.jar",
+            "hash": "82a28ce51fdbc583477d7ae7c4c94cc6d23ec2b4"
+        },
+        {
+            "path": "mods/rhino-2101.2.8-build.91.jar",
+            "hash": "56eab1d464ed0811c64040c64bd047df5cbc3aad"
+        },
+        {
+            "path": "mods/ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge.jar",
+            "hash": "ec2e4996f8bee8714173e603e379fef8a6901765"
+        },
+        {
+            "path": "mods/ruok-neoforge_1.21.1_Pre-Release_5-1.7.4.jar",
+            "hash": "39cc42ccf160c15555e6081493e8cca4985112bc"
+        },
+        {
+            "path": "mods/sable-neoforge-1.21.1-2.0.5.jar",
+            "hash": "05f666e973d32baaaf405acb9bbed6615b909971"
+        },
+        {
+            "path": "mods/sable-photomancy-1.0.1.jar",
+            "hash": "4f33a1ce8f4c241afe0963d7c96e2d612cc62ee1"
+        },
+        {
+            "path": "mods/sclp-neoforge-3.17.7.1.jar",
+            "hash": "307cda73c92152f1dc0df3d5caf0f7abdf7f9d3f"
+        },
+        {
+            "path": "mods/searchonmcmod-neoforge-1.21-1.21.8-0.1.0.jar",
+            "hash": "e81eb6a6c1db508e5d81387294762583ad52947f"
+        },
+        {
+            "path": "mods/serverwarashi-1.21.1-2.0.4.jar",
+            "hash": "44d1960f998aa723f88e7d26c3e43d6726b70c51"
+        },
+        {
+            "path": "mods/simulatedcoasters-0.1.5.jar",
+            "hash": "4d3381b781a1129f793358b8ae13e0abcd2e655b"
+        },
+        {
+            "path": "mods/simurail-0.0.0-a+mc1.21.1.jar",
+            "hash": "b685dcc14f0f7acdb15cdbba4ad1f994c927d631"
+        },
+        {
+            "path": "mods/simurail-1.21.1-0.0.0-a+3136da5.jar",
+            "hash": "087bb045db5e0ca546cce799b672b1789e03de4c"
+        },
+        {
+            "path": "mods/sodium-neoforge-0.8.13+mc1.21.1.jar",
+            "hash": "1757289be21ed18db5b0d90703fa3db1b2de5693"
+        },
+        {
+            "path": "mods/synaxis-1.5.0.jar",
+            "hash": "3b3dfa037f4766c00bb78634eb3b4ba1c7575268"
+        },
+        {
+            "path": "mods/tectonic-3.0.26-neoforge-21.1.jar",
+            "hash": "3114da043f1b54fe32b2801266a27a8f477d7325"
+        },
+        {
+            "path": "mods/tide-neoforge-1.21.1-2.1.1.jar",
+            "hash": "6916fb787c0c3da859166b57a9aaac287d7ed144"
+        },
+        {
+            "path": "mods/tongdarailway-1.1.5+mc21.1.jar",
+            "hash": "ed203b1560bf28d43b374f254184bf428ef7e5ad"
+        },
+        {
+            "path": "mods/touhoulittlemaid-1.5.3-neoforge+mc1.21.1.jar",
+            "hash": "f96507810deaa2ffd8c3bd86a79d6ccbd56ca32e"
+        },
+        {
+            "path": "mods/tracks-neoforge-1.21.1-1.0.1.jar",
+            "hash": "cccd208606d7ac33f483e1e8a237092712a1a2c0"
+        },
+        {
+            "path": "mods/tracks_plus-1.0.6b2.jar",
+            "hash": "e598b6fe6814e169a61e8d1c64d86e6e13ac6b5a"
+        },
+        {
+            "path": "mods/trashslot-neoforge-1.21.1-21.1.11.jar",
+            "hash": "ce09d0128e6a7d225e731e1307f9c1deddac209a"
+        },
+        {
+            "path": "mods/travelersbackpack-neoforge-1.21.1-10.1.38.jar",
+            "hash": "99394dd89892a7eb13650c15931568246ba74305"
+        },
+        {
+            "path": "mods/tweakerge-0.4.3+mc1.21.1.jar",
+            "hash": "73900f60c434ae33c1af9267b09d2551029e0486"
+        },
+        {
+            "path": "mods/twilightdelight-3.2.2.jar",
+            "hash": "995f2d598238144b695dfb7e118e472311ac1a69"
+        },
+        {
+            "path": "mods/twilightforest-1.21.1-4.8.3345-universal.jar",
+            "hash": "9cfd4154928433e2f1f6cfc3deb48c284debb580"
+        },
+        {
+            "path": "mods/visuality-forge-3.0.0.jar",
+            "hash": "9786f023733a302b582b7349336e1ab47e93823e"
+        },
+        {
+            "path": "mods/worldedit-mod-7.3.8.jar",
+            "hash": "924fe181a29bd66be6783f6d589968ab0ee02250"
+        },
+        {
+            "path": "mods/worldgenfeaturefix-neoforge-1.21-1.0.1.jar",
+            "hash": "bc18f6434325412430550260c7fd0b4d272c3fbf"
+        },
+        {
+            "path": "mods/xaerominimap-neoforge-1.21.1-26.4.2.jar",
+            "hash": "21b3232e62dabcbb5bf28866481e8de2c0ccb780"
+        },
+        {
+            "path": "mods/xaeroworldmap-neoforge-1.21.1-1.45.0.jar",
+            "hash": "f243d6877ab32333f27bf27ad1e9eb600361e6aa"
+        },
+        {
+            "path": "mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+            "hash": "fe270c9f6e0a8142cf316944087f5109cef08bbb"
+        },
+        {
+            "path": "mods/ysm-2.6.5-neoforge+mc1.21.1-release.jar",
+            "hash": "18bec74a5b7f3778ce162ddbbbd5555aff0eda2e"
+        },
+        {
+            "path": "mods/yuushya-1.21.0-neoforge-2.3.0.jar",
+            "hash": "060f0961b08031d8054bebcf5328ce03797babb5"
+        },
+        {
+            "path": "mods/yuushya_modelling-1.21.1-2.4.1.jar",
+            "hash": "c067f0939ba6d215f5e9076400e7c7725979dbe3"
+        },
+        {
+            "path": "mods/zume-1.2.2.jar",
+            "hash": "cbd353ee0e2a35d122a758b9cbb26b2f54145f3f"
+        },
+        {
+            "path": "options.txt",
+            "hash": "46f101ee3a6edb7d2b5f7e33053193ef63a94709"
+        },
+        {
+            "path": "resourcepacks/机械动力：航空学汉化1.0fix7.zip",
+            "hash": "fd19e277b9f8fe6db8cedcfb2a9754a0872e04f3"
+        },
+        {
+            "path": "servers.dat",
+            "hash": "9d94e5bb52f65bafd0d6380b75095b8bc72ddfd5"
+        },
+        {
+            "path": "shaderpacks/Aurora's Shaders.zip",
+            "hash": "25fcf50b3292264d0eba6ea9c14a926310238651"
+        },
+        {
+            "path": "shaderpacks/ComplementaryReimagined_r5.7.1.zip",
+            "hash": "b560f646a124d5204b1fb7321fec373b9c346fa5"
+        },
+        {
+            "path": "shaderpacks/ComplementaryReimagined_r5.7.zip",
+            "hash": "1aff2bfe49dd9abed939ef8476133afc29764604"
+        },
+        {
+            "path": "shaderpacks/MakeUp-UltraFast-9.4c.zip",
+            "hash": "0e856109783bf72e82d9a1e65713afa908ab6edd"
+        },
+        {
+            "path": "shaderpacks/Solas Shader V3.5.zip",
+            "hash": "bc483eb3337423c9fb2141132c5a9f957b6140b2"
+        },
+        {
+            "path": "shaderpacks/photon_v1.3b.zip",
+            "hash": "d975d25c9686de5f10e8b86c8518613cdf3f040a"
+        }
+    ]
+}

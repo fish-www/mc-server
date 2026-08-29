@@ -13,6 +13,9 @@ wheels/
 logs/
 
 # mc server
-server/
+server/mods/
+server/.voxy/
+server/xaero/
+server/world/
 
 permission.yml

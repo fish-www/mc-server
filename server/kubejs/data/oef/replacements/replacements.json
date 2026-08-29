@@ -1,0 +1,14 @@
+[
+  {
+    "matchFluid": [
+      "create_fantasizing:powder_snow"
+    ],
+    "resultFluid": "createcraftedbeginning:slush"
+  },
+  {
+    "matchFluid": [
+      "minecraft:milk"
+    ],
+    "resultFluid": "kaleidoscope_world_liquor:milk"
+  }
+]

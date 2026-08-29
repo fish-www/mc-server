@@ -1,0 +1,21 @@
+[
+  {
+    "matchItems": [
+      "createcasing:zinc_sheet",
+      "createdeco:zinc_sheet"
+    ],
+    "resultItems": "powergrid:zinc_sheet"
+  },
+  {
+    "matchItems": [
+      "twilightforest:copper_nugget"
+    ],
+    "resultItems": "create:copper_nugget"
+  },
+  {
+    "matchItems": [
+      "createcasing:zinc_casing"
+    ],
+    "resultItems": "create_fantasizing:zinc_casing"
+  }
+]

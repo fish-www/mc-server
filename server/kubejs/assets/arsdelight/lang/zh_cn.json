@@ -1,0 +1,21 @@
+{
+  "block.arsdelight.dawnberry_crate": "黎明浆果箱",
+  "block.arsdelight.dawnberry_jelly": "黎明浆果酱",
+  "block.arsdelight.dawnberry_pie": "黎明浆果派",
+  "block.arsdelight.lightchee_crate": "流光浆果箱",
+  "block.arsdelight.lightchee_jelly": "流光浆果酱",
+  "block.arsdelight.lightchee_pie": "流光浆果派",
+  "effect.arsdelight.lightning_curse.desc": "为你的法术攻击目标附加闪电引诱",
+  "item.arsdelight.bleak_bark": "荒芜树皮",
+  "item.arsdelight.dawn_bark": "黎明树皮",
+  "item.arsdelight.dawnberry_hornbeer": "黎明浆果角杯啤酒",
+  "item.arsdelight.dawnberry_pie_slice": "黎明浆果派切片",
+  "item.arsdelight.dawnberry_tea": "黎明浆果茶",
+  "item.arsdelight.fading_bark": "褪色树皮",
+  "item.arsdelight.lightchee_hornbeer": "流光浆果角杯啤酒",
+  "item.arsdelight.lightchee_pie_slice": "流光浆果派切片",
+  "item.arsdelight.lightchee_tea": "流光浆果茶",
+  "item.arsdelight.neutralized_dawnberry_jam": "中和黎明浆果酱",
+  "item.arsdelight.neutralized_lightchee_jam": "中和流光浆果酱",
+  "item.arsdelight.skittle_stew": "彩虹炖菜"
+}

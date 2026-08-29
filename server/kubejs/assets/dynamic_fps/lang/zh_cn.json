@@ -1,0 +1,16 @@
+{
+  "config.dynamic_fps.feature.misc": "杂项",
+  "config.dynamic_fps.feature.volume_transition": "音量过渡",
+  "config.dynamic_fps.feature.idle": "空闲",
+  "config.dynamic_fps.feature.battery": "电池集成",
+  "config.dynamic_fps.ignore_initial_click": "忽略初始点击",
+  "config.dynamic_fps.ignore_initial_click_tooltip": "点击未聚焦的游戏窗口时忽略误触输入。",
+  "config.dynamic_fps.ignore_initial_click_disabled": "禁用",
+  "config.dynamic_fps.ignore_initial_click_in_world": "仅游戏中",
+  "config.dynamic_fps.ignore_initial_click_constant": "始终",
+  "config.dynamic_fps.battery_critical_level": "电量临界阈值",
+  "config.dynamic_fps.battery_critical_level_tooltip": "设置将电池电量视为临界值的水准。",
+  "config.dynamic_fps.battery_indicator_debug": "在调试覆盖层（F3）中显示",
+  "config.dynamic_fps.battery_indicator_debug_tooltip": "调试覆盖层打开时是否显示电池指示器。",
+  "toast.dynamic_fps.http_error": "库文件下载失败"
+}
