@@ -1,8 +1,10 @@
+## 服务端说明
+
 使用 [MCDReforged](https://github.com/MCDReforged/MCDReforged) 管理 [NeoForge](https://github.com/neoforged/NeoForge) 服务器
 
 使用 [Minecraft-QQBot](https://github.com/Minecraft-QQBot/BotServer) 及其 [mcdr 插件](https://github.com/Minecraft-QQBot/Plugin.McdReforged) 实现 qq bot
 
-## 部署
+## 服务端部署
 
 ### mcdr
 
@@ -38,7 +40,7 @@ git restore run.sh
 cd ..
 ```
 
-## 配置
+## 服务端配置
 
 `server/run.sh` 文件中，使用的是 graalvm jdk，可以自行编辑 ，将 `JAVA_BIN` 修改为自己使用的 jdk 路径，如果不打算修改，需要自行下载 [graalvm jdk](https://www.graalvm.org/) 并放在对应位置
 
@@ -54,7 +56,7 @@ cd ..
 
 `mc.service` 文件是用于 systemd 的 service 文件，里面主要是 `WorkingDirectory` 需要修改成项目路径，如果不打算使用 systemd 的话不需要关心
 
-## 运行
+## 服务端运行
 
 ### 手动启动
 
@@ -98,3 +100,31 @@ systemctl --user status mc
 # 重新加载 qq_bot 插件
 systemctl --user reload mc
 ```
+
+## 客户端使用
+
+使用的是 [HMCL](https://github.com/HMCL-dev/HMCL) 的服务端自动更新整合包，具体信息可参考 HMCL 文档的 [服务端自动更新整合包制作教程](https://docs.hmcl.net/modpack/serverpack.html)
+
+整合包使用方式：
+
+HMCL 依次点开 实例列表 > 安装整合包 > 从互联网下载整合包
+
+填入整合包链接：
+
+- 完整整合包（因为包含了大量 voxy 缓存数据，完整整合包大小约为 4GB）
+
+http://<此处插入地址>/modpack/server-manifest.json
+
+- 轻量级整合包（去除了 voxy 和光影包等数据，大小只有几百 MB）
+
+http://<此处插入地址>/modpack-lite/server-manifest.json
+
+确定后即可自动下载导入，实例每次启动之后都会自动更新
+
+## 贡献
+
+`server-manifest.json` 中包含了客户端整合包中的所有文件（路径及其 sha1sum）
+
+有相关改动时，同步更新 `server-manifest.json` 文件
+
+更新完需要跑一下 `dedup-manifest.py` 确保 `server-manifest.json` 内容不重复且有序
