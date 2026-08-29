@@ -48,6 +48,10 @@
             "hash": "16249d94c92da092914e80ca2fa909866d110627"
         },
         {
+            "path": "config/inventoryprofilesnext/inventoryprofiles.json",
+            "hash": "23e256ab8a143158ebf81799ee06787e97502bfd"
+        },
+        {
             "path": "config/minihud.json",
             "hash": "85f9b30066235517b991d0c501f6df256cef8eb0"
         },
