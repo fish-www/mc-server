@@ -17,5 +17,11 @@
       "createcasing:zinc_casing"
     ],
     "resultItems": "create_fantasizing:zinc_casing"
+  },
+  {
+    "matchItems": [
+      "createdeco:andesite_sheet"
+    ],
+    "resultItems": "createcasing:andesite_sheet"
   }
 ]
