@@ -180,10 +180,6 @@
             "hash": "857abf18011cdcd025ecb895705fc34c2722efda"
         },
         {
-            "path": "kubejs/assets/drivebywire/lang/zh_cn.json",
-            "hash": "f4f95003a28755064ff584cf4832edbcaa0df67c"
-        },
-        {
             "path": "kubejs/assets/dynamic_fps/lang/zh_cn.json",
             "hash": "fb38b3ae711cd4b32eac64bb82830fe11dd69e7b"
         },
@@ -620,6 +616,10 @@
             "hash": "b87be133edfa10aed453bf909a7d7dea8b1f4f4c"
         },
         {
+            "path": "mods/SSRD-1.8.5-1.21.1.jar",
+            "hash": "cf5fc3c34ae53341ad0a4fe1e03e9cbf6340cfd4"
+        },
+        {
             "path": "mods/SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
             "hash": "127e4a3e699dafebc512e1fa7983f245b49cb420"
         },
@@ -876,8 +876,8 @@
             "hash": "32ad20ba9a28629ecf47e0bfeb911f6c53bd1b7c"
         },
         {
-            "path": "mods/drivebywire-0.3.0.jar",
-            "hash": "b8b01f1e2d6fad22c3fa5f4a566262edbb9fda16"
+            "path": "mods/drivebysable-r1.5.0.jar",
+            "hash": "1a9ef2e54ca2d85000c3faa1985a689285126c3f"
         },
         {
             "path": "mods/dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
@@ -1206,10 +1206,6 @@
         {
             "path": "mods/tracks-neoforge-1.21.1-1.0.1.jar",
             "hash": "cccd208606d7ac33f483e1e8a237092712a1a2c0"
-        },
-        {
-            "path": "mods/tracks_plus-1.0.6b2.jar",
-            "hash": "e598b6fe6814e169a61e8d1c64d86e6e13ac6b5a"
         },
         {
             "path": "mods/trashslot-neoforge-1.21.1-21.1.11.jar",
