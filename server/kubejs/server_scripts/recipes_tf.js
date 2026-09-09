@@ -114,4 +114,13 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    // 加冕仪式地毯
+    event.shapeless(
+        Item.of('twilightforest:coronation_carpet'),
+        [
+            'minecraft:red_carpet',
+            'minecraft:gold_nugget'
+        ]
+    )
+
 });

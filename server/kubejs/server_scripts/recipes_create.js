@@ -1005,4 +1005,41 @@ ServerEvents.recipes(event => {
         ]
     });
 
+    // 冲压铸模蜜脾
+    event.custom({
+        "type": "createdieselgenerators:compression_molding",
+        "ingredients": [
+            {
+                "type": "neoforge:single",
+                "amount": 250,
+                "fluid": "create:honey"
+            }
+        ],
+        "mold": "createdieselgenerators:bowl",
+        "results": [
+            {
+                "id": "minecraft:honeycomb",
+                "count": 4
+            }
+        ]
+    });
+
+    // 面团染色黏液球
+    event.custom({
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+            {
+                "tag": "c:foods/dough"
+            },
+            {
+                "tag": "c:dyes/lime"
+            }
+        ],
+        "result": {
+            "count": 1,
+            "id": "minecraft:slime_ball"
+        }
+    });
+    
 });
