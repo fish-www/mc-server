@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
-"""Update server-manifest.json entries for given server/ files.
+"""Update server-manifest.json entries for given server/ files or directories.
 
 Usage:
     python3 scripts/update-manifest.py server/config/foo.toml [server/kubejs/bar.json ...]
+    python3 scripts/update-manifest.py server/kubejs/ [server/config/ ...]
 
 For each given path (repo-root relative like server/config/foo.toml, or
 manifest-relative like config/foo.toml):
   - file exists on disk  -> refresh its sha1 hash, or add a new entry if absent
   - file does not exist  -> remove the entry from the manifest
+  - directory            -> remove every manifest entry under it, then add an
+                            entry for every file currently on disk under it
 
 Runs dedup + sort afterwards (scripts/dedup-manifest.py).
 """
@@ -24,6 +27,15 @@ MANIFEST = os.path.join(ROOT, "server-manifest.json")
 CONTENT = os.path.join(ROOT, "server")
 
 
+def walk_files(directory: str):
+    """Yield manifest-relative paths of every file under directory."""
+    for dirpath, dirnames, filenames in os.walk(directory):
+        dirnames.sort()
+        for name in sorted(filenames):
+            full = os.path.join(dirpath, name)
+            yield os.path.relpath(full, CONTENT).replace(os.sep, "/")
+
+
 def sha1(path: str) -> str:
     h = hashlib.sha1()
     with open(path, "rb") as f:
@@ -34,7 +46,7 @@ def sha1(path: str) -> str:
 
 def main() -> int:
     if len(sys.argv) < 2:
-        print(f"usage: {sys.argv[0]} server/<path> [server/<path> ...]", file=sys.stderr)
+        print(f"usage: {sys.argv[0]} server/<file-or-dir> [server/<file-or-dir> ...]", file=sys.stderr)
         return 1
 
     with open(MANIFEST, encoding="utf-8") as f:
@@ -47,9 +59,32 @@ def main() -> int:
         rel = arg.replace("\\", "/")
         while rel.startswith("./"):
             rel = rel[2:]
-        if rel.startswith("server/"):
+        if rel == "server":
+            rel = ""
+        elif rel.startswith("server/"):
             rel = rel[len("server/"):]
+        rel = rel.strip("/")
         disk = os.path.join(CONTENT, rel)
+
+        if os.path.isdir(disk):
+            prefix = rel + "/" if rel else ""
+            stale = [e for e in files if e["path"].startswith(prefix)]
+            for e in stale:
+                files.remove(e)
+                del by_path[e["path"]]
+            added = 0
+            for p in walk_files(disk):
+                digest = sha1(os.path.join(CONTENT, p))
+                entry = by_path.get(p)
+                if entry is None:
+                    files.append({"path": p, "hash": digest})
+                    by_path[p] = files[-1]
+                    added += 1
+                else:
+                    entry["hash"] = digest
+            print(f"synced  {rel or '.'}/: {len(stale)} removed, {added} added")
+            continue
+
         exists = os.path.isfile(disk)
 
         if exists:
