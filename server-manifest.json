@@ -520,64 +520,64 @@
             "hash": "5aadfd592bd61df5760b4834dd84f337b4593347"
         },
         {
-            "path": "mods/CreateCyberGoggles-1.21.1-8.3.15-NeoForge.jar",
-            "hash": "1c674b58f8183157b40b2b31db54154b68366f81"
+            "path": "mods/CreateCyberGoggles-1.21.1-8.6.3-NeoForge.jar",
+            "hash": "7f27bcf2fa179135fcca6a5a61c8b120cba76b84"
         },
         {
-            "path": "mods/CreateDragonsPlus-1.11.7b.jar",
-            "hash": "36085362f1123273a2d8e8e7e8af86c32ac10251"
+            "path": "mods/CreateDragonsPlus-1.11.9.jar",
+            "hash": "67ffcb61207a7dbc6b1e70f0473ddbacb19d44eb"
         },
         {
-            "path": "mods/CreativeCore_NEOFORGE_v2.13.44_mc1.21.1.jar",
-            "hash": "ed55360f72cd6666a1b191506a6270e05ef1ef49"
+            "path": "mods/CreativeCore_NEOFORGE_v2.13.46_mc1.21.1.jar",
+            "hash": "180613074e3f8df9b1e052a3abe19a1c4ac38b48"
         },
         {
             "path": "mods/Design-n-Decor-1.21.1-2.2b.jar",
             "hash": "ff5f0411a3d82e15d69b65617128f6d54e818e1b"
         },
         {
-            "path": "mods/Ecliptic-Seasons-MultiMod-Patch-1.21.1-neoforge-0.32.0-beta.jar",
-            "hash": "b3c2154d68cbf2f7e6b52a5a33313e21d9432941"
+            "path": "mods/Ecliptic-Seasons-MultiMod-Patch-1.21.1-neoforge-0.32.1.jar",
+            "hash": "59b9e85815e53181577b7b0c7d4f72acca0f6263"
         },
         {
-            "path": "mods/EclipticSeasons-1.21.1-neoforge-0.14.99-beta-2.jar",
-            "hash": "35231e62dc2984b4890ee718613d595ec6d48032"
+            "path": "mods/EclipticSeasons-1.21.1-neoforge-0.15.0-rc-3-1.jar",
+            "hash": "9eef25e33968ef56530bafa043b96da7fd4efcd3"
         },
         {
-            "path": "mods/FarmersDelight-1.21.1-1.3.3.jar",
-            "hash": "55ea87dec84a632690a748857db08a35941980b6"
+            "path": "mods/FarmersDelight-1.21.1-1.3.4.jar",
+            "hash": "27675ddfcb8cc37e6ea1ab6c15051c7949d94657"
         },
         {
-            "path": "mods/FramedBlocks-10.6.1.jar",
-            "hash": "3007be0007d09c0225ca33b647461f342eac0503"
+            "path": "mods/FramedBlocks-10.6.2.jar",
+            "hash": "c86d546e57a6161e77f4acd651e6939b2d6136d5"
         },
         {
             "path": "mods/GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
             "hash": "e3d4bb80a06f619be989ab529d0cd4e33e076943"
         },
         {
-            "path": "mods/IMBlocker-5.5.4-neoforge+1.20.6-1.21.8.jar",
-            "hash": "4910d4aeab9e5d23b4facb592a18136e64caf3e5"
+            "path": "mods/IMBlocker-5.6.1-neoforge+1.20.6-1.21.8.jar",
+            "hash": "ae2f4c8b929d923b6fd637b5158fd93082a0fdb2"
         },
         {
-            "path": "mods/ImmediatelyFast-NeoForge-1.6.13+1.21.1.jar",
-            "hash": "cfc87deced26f78e46143fe5f0a33597d06845a8"
+            "path": "mods/ImmediatelyFast-NeoForge-1.6.14+1.21.1.jar",
+            "hash": "fee59af2f39c66d09c4c09f441c799e76af70f97"
         },
         {
             "path": "mods/InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar",
             "hash": "b09d7c0820c233ea34af54d0a3ab7ed510b32dcc"
         },
         {
-            "path": "mods/Ixeris-4.6.5+1.21.1-neoforge.jar",
-            "hash": "390d3b9f0486d6637109683913f22a958d870af2"
+            "path": "mods/Ixeris-4.6.7+1.21.1-neoforge.jar",
+            "hash": "c5ece618fca268f807cdfa26c17044d45b132b4e"
         },
         {
             "path": "mods/Jade-1.21.1-NeoForge-15.10.6.jar",
             "hash": "88ee316e68900080b017f60c12162e2731924cf8"
         },
         {
-            "path": "mods/JadeAddons-1.21.1-NeoForge-6.1.0.jar",
-            "hash": "d0aef07e67f9e2dd7ae68f9f27d845511d8eaff3"
+            "path": "mods/JadeAddons-1.21.1-NeoForge-6.1.1.jar",
+            "hash": "6c50a845ac3d336fa88e6466c36aa8b3815ca5c5"
         },
         {
             "path": "mods/Kaleidoscope Texture Expansion-2.8.0-1.21.1.jar",
@@ -592,8 +592,8 @@
             "hash": "e19721873bebc4dbc1674bb101af39d0ea406b95"
         },
         {
-            "path": "mods/New Visual Keybing-1.21.1-neoforge-0.6.16.jar",
-            "hash": "19e9ece8b58df07833896e53624f126365cbc7ac"
+            "path": "mods/New Visual Keybing-neoforge-1.21.1-0.9.4.jar",
+            "hash": "cdb2887cd2c8d970fb03de76842e43b13b5071ce"
         },
         {
             "path": "mods/OELib-neoforge-1.21.1-0.2.3.jar",
@@ -616,12 +616,12 @@
             "hash": "b87be133edfa10aed453bf909a7d7dea8b1f4f4c"
         },
         {
-            "path": "mods/SSRD-1.8.5-1.21.1.jar",
-            "hash": "cf5fc3c34ae53341ad0a4fe1e03e9cbf6340cfd4"
+            "path": "mods/SSRD-1.8.6-1.21.1.jar",
+            "hash": "7823e9f1b6c7c75aaa4d85eafd63f0bbabc86268"
         },
         {
-            "path": "mods/SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
-            "hash": "127e4a3e699dafebc512e1fa7983f245b49cb420"
+            "path": "mods/SereneSeasons-neoforge-1.21.1-10.1.0.9.jar",
+            "hash": "6b98eb4e64344bb8aba424187ed08bf04e59dccf"
         },
         {
             "path": "mods/SiliconeDolls-neoforge-1.21.1-1.0.0+build.65.jar",
@@ -708,8 +708,8 @@
             "hash": "c3e5733ba4503b102589a026000fd5ce0212f6f2"
         },
         {
-            "path": "mods/copycats-3.0.8+mc.1.21.1-neoforge.jar",
-            "hash": "ee0cddd7053622aa0a6964e7367bd69795273e7d"
+            "path": "mods/copycats-3.0.9+mc.1.21.1-neoforge.jar",
+            "hash": "74de17876c43f5f780bac478b9f9eb11e687b8d7"
         },
         {
             "path": "mods/corpse-neoforge-1.21.1-1.1.13.jar",
@@ -720,24 +720,24 @@
             "hash": "0e97e49837bed766e6f28a4c95b04885d6acc353"
         },
         {
-            "path": "mods/create-aeronautics-bundled-1.21.1-1.3.1.jar",
-            "hash": "15d273d891578d583aa142354b63ed70f87fee62"
+            "path": "mods/create-aeronautics-bundled-1.21.1-1.3.2.jar",
+            "hash": "ddbe9cbc25e8f663218aa1e9fdfc4b99f0e11e4b"
         },
         {
-            "path": "mods/create-central-kitchen-2.6.0.jar",
-            "hash": "f0dd0161de70f2177ba2e06c68ef0dbea08cdf2f"
+            "path": "mods/create-central-kitchen-2.6.1.jar",
+            "hash": "9fcc2a9fc0c575ab0fc220fdb066f06fd1bcb635"
         },
         {
             "path": "mods/create-confectionery1.21.1_v1.1.3b.jar",
             "hash": "47e235efa862c5cbea53fdf8346d4c499674defa"
         },
         {
-            "path": "mods/create-enchantment-industry-2.5.3.jar",
-            "hash": "91efc293e6fbdc20a4ef50a27f3ab5b593d480d1"
+            "path": "mods/create-enchantment-industry-2.5.4.jar",
+            "hash": "929a1ff0329f0033329f8c22bef785b2a8c4e776"
         },
         {
-            "path": "mods/create-integrated-farming-1.3.3b.jar",
-            "hash": "344990890a4d1d78e936a41176fe520564f8ad53"
+            "path": "mods/create-integrated-farming-1.4.2.jar",
+            "hash": "75deb3f1c5547e8c0f9254ea6ffbdd848a020d54"
         },
         {
             "path": "mods/create-shimmer-1.3.1.jar",
@@ -748,16 +748,16 @@
             "hash": "246915560f74b92e0186c22da26be8995380c443"
         },
         {
-            "path": "mods/create_aeronautics_transmission_linkage-0.2.7.jar",
-            "hash": "dee7a9879b27db5be4831d140e39aba3a051e3ae"
+            "path": "mods/create_aeronautics_transmission_linkage-0.2.8.jar",
+            "hash": "bccaf90652905ae5f28dcc7e1134099d188ca020"
         },
         {
             "path": "mods/create_bb-1.0.8-1.21.1.jar",
             "hash": "59220d82cf962773e26778fc24c454e761368092"
         },
         {
-            "path": "mods/create_connected-1.3.2-mc1.21.1.jar",
-            "hash": "920de05b13c32fe1417d0aec0615057aa480cc8d"
+            "path": "mods/create_connected-1.3.3-mc1.21.1.jar",
+            "hash": "72c3653116562dbab38dac123f8effc73c747cc9"
         },
         {
             "path": "mods/create_fantasizing-1.21.1-1.2.0-b3.jar",
@@ -800,8 +800,8 @@
             "hash": "6acf4d30516b6bf66928aa5d79d6bac6283de44e"
         },
         {
-            "path": "mods/createbetterfps-1.21.1-1.1.4.jar",
-            "hash": "c594e20659b73a67bd0b0c2de45b29b78a2eb160"
+            "path": "mods/createbetterfps-1.21.1-1.1.5.jar",
+            "hash": "c06111569e30af58d1cec4b4ee4b545f0021172a"
         },
         {
             "path": "mods/createbigcannons-5.11.7+mc.1.21.1.jar",
@@ -828,12 +828,12 @@
             "hash": "7f751dabfa83c141c1d13025cd16f06553ba459b"
         },
         {
-            "path": "mods/createfactorycontroller-1.1.1-neoforge-1.21.1.jar",
-            "hash": "5005aacb17acf99f043700dced3f60937176ae3d"
+            "path": "mods/createfactorycontroller-1.2.1-neoforge-1.21.1.jar",
+            "hash": "96c7dc65775a0c1032af43399644ba9cf915366f"
         },
         {
-            "path": "mods/createfirefightingadd-0.2.1-beta.jar",
-            "hash": "e53d6226cec82e5d2f34d225c413c2e9ebaa4e6a"
+            "path": "mods/createfirefightingadd-0.2.3-beta.jar",
+            "hash": "85a73bfc574f645bbb4fea251d2c6f4588bbd576"
         },
         {
             "path": "mods/creategearsandtavern-1.1.8.jar",
@@ -844,20 +844,20 @@
             "hash": "9b085dedfac7f918069907f390791aff5e81494d"
         },
         {
-            "path": "mods/createliquidfuel-2.1.1-1.21.1.jar",
-            "hash": "a29f65eb4bbded2ca977a1453f90b6570e812b85"
+            "path": "mods/createliquidfuel-3.0.0-1.21.1.jar",
+            "hash": "9a88888ac915d32d8df240153421fdcb170ad88e"
         },
         {
             "path": "mods/createoreexcavation-1.21-1.6.8.jar",
             "hash": "9a76b86ec7470d4bd7332f22d6e50a3693098c10"
         },
         {
-            "path": "mods/createpatina-1.21.1-1.1.1-neoforge.jar",
-            "hash": "3e097cf2660aef0606c8476a8139c4a7d5c7dac8"
+            "path": "mods/createpatina-1.21.1-1.1.2-neoforge.jar",
+            "hash": "1cd7cffd7a19872d7915f407d6783c79cbba559a"
         },
         {
-            "path": "mods/createphantom-1.0.1.jar",
-            "hash": "26d1e28162fbba8af7fb46b4109a08dd792eb77a"
+            "path": "mods/createphantom-1.0.2.jar",
+            "hash": "1b829e3878988be0373c0de734d0ae10769e5826"
         },
         {
             "path": "mods/createprism-1.2.2.jar",
@@ -880,16 +880,16 @@
             "hash": "32ad20ba9a28629ecf47e0bfeb911f6c53bd1b7c"
         },
         {
-            "path": "mods/drivebysable-r1.5.0.jar",
-            "hash": "1a9ef2e54ca2d85000c3faa1985a689285126c3f"
+            "path": "mods/drivebysable-r1.6.0.jar",
+            "hash": "aefe593fc5e1451f9c0f3e69c0d53687e3f3c893"
         },
         {
             "path": "mods/dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
             "hash": "35b17e95b2b65930116ccc83e0cc358ac1bfcf9e"
         },
         {
-            "path": "mods/ecliptic-seasons-serene-api-bridge-1.21.1-neoforge-10.1.0.3-patch11.jar",
-            "hash": "cd12d7742ca7a73929b2605ce26cbb682f52cbbf"
+            "path": "mods/ecliptic-seasons-serene-api-bridge-1.21.1-neoforge-10.1.0.3-patch11-1.jar",
+            "hash": "370b428a00a0f15da161355f1b0585d2b2f3d87e"
         },
         {
             "path": "mods/ends_delight-2.6.1+neoforge.1.21.1.jar",
@@ -904,12 +904,12 @@
             "hash": "8faf96d7c3c12eaec819b4e273e58c048e8de125"
         },
         {
-            "path": "mods/flerovium-neoforge-1.21.1-1.1.2-all.jar",
-            "hash": "31491e08947da57d4af6c48e8d3237cc6d4009c1"
+            "path": "mods/flerovium-neoforge-1.21.1-1.1.3-all.jar",
+            "hash": "e055a4755b4cf969d25dd2da1d688eea18c65c57"
         },
         {
-            "path": "mods/fluidlogistics-1.2.8.jar",
-            "hash": "573bc57811d1ede98494690e6fba1172c17136aa"
+            "path": "mods/fluidlogistics-1.3.0-mc1.21.1.jar",
+            "hash": "011435bbefe9ab979719fa138252d52261837d33"
         },
         {
             "path": "mods/forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar",
@@ -920,12 +920,12 @@
             "hash": "9e13ddd63337a180c6e69c0b3c7e622f1d27c71a"
         },
         {
-            "path": "mods/fusion-1.3.14a-neoforge-mc1.21.1.jar",
-            "hash": "dc94e22df06f01ec63d2312a4f6a0b4b4a140769"
+            "path": "mods/fusion-1.3.15a-neoforge-mc1.21.1.jar",
+            "hash": "d29d0d1e0e7a9014fc8e0da69db8f019f458d002"
         },
         {
-            "path": "mods/geckolib-neoforge-1.21.1-4.9.2.jar",
-            "hash": "14c64013cadee7d28f3685f94350f9a4d2ec6d86"
+            "path": "mods/geckolib-neoforge-1.21.1-4.9.3.jar",
+            "hash": "5cfe835472a5c5457ae9ac192d9d7b317454d5ac"
         },
         {
             "path": "mods/gravitation-neoforge-1.21.1-0.0.7.jar",
@@ -936,16 +936,16 @@
             "hash": "9dd70de85e18061cd68e4568a76db064b5729bd6"
         },
         {
-            "path": "mods/immortalers_delight-1.21.1-neoforge-1.0.7.jar",
-            "hash": "cd0a6662d10c9cc114d9cab6754907fe911ed71c"
+            "path": "mods/immortalers_delight-1.21.1-neoforge-1.0.10.jar",
+            "hash": "de85eabfa7ca6928d81d5bb9b55940c12b17db07"
         },
         {
-            "path": "mods/incontrol-1.21-10.2.6.jar",
-            "hash": "7671cdc14af14166e72eff07eab7e55d81b52a41"
+            "path": "mods/incontrol-1.21-10.3.0.jar",
+            "hash": "eb89f724834b393e9a76c404df642d930e50eb19"
         },
         {
-            "path": "mods/interiors-1.21.1-neoforge-0.6.1.jar",
-            "hash": "a558777ef4510da2f4d32ca3da6ac7384c9a9940"
+            "path": "mods/interiors-0.6.1 v2.jar",
+            "hash": "be747984ad74204980877841ab041bf5ea854446"
         },
         {
             "path": "mods/iris-flywheel-compat-NeoForge-2.4.0.jar",
@@ -960,28 +960,28 @@
             "hash": "246f6c6dbd4fc9d3c1def54e0a090c7cbd1a83a7"
         },
         {
-            "path": "mods/jecharacters-1.21.1-neoforge-4.5.27.jar",
-            "hash": "e7baf37c0431be1960005a5e8929cb6b5899d416"
+            "path": "mods/jecharacters-1.21.1-neoforge-4.5.29.jar",
+            "hash": "2325c72eadfb19c9feb3901435ca5a9cebc7a46c"
         },
         {
-            "path": "mods/jei-1.21.1-neoforge-19.39.0.369.jar",
-            "hash": "1fe9d5355563bd624949f05a76ef64ea787c7252"
+            "path": "mods/jei-1.21.1-neoforge-19.57.0.444.jar",
+            "hash": "0df1c73ad0f8fd8e62b0e7b8a2f6b826bbbecc8f"
         },
         {
             "path": "mods/kaleidoscope_bloodwine-1.1.0.jar",
             "hash": "a6949c4262c7ccc77458eaf27513f1bfa0b47f56"
         },
         {
-            "path": "mods/kaleidoscope_chinesefood-1.1.10-neoforge+1.21.1.jar",
-            "hash": "c6f23b3fb1faa3dbcfb3fa2c0779e67d7f83e0c0"
+            "path": "mods/kaleidoscope_chinesefood-1.1.11-neoforge+1.21.1.jar",
+            "hash": "b66315b2cf5343fc3d87eeda28c98baf11d032c3"
         },
         {
-            "path": "mods/kaleidoscope_compat-2.9.7-neoforge+mc1.21.1.jar",
-            "hash": "a69492f0a085eebb37f64e606bf2065aa66badbf"
+            "path": "mods/kaleidoscope_compat-2.9.7-neoforge+mc1.21.1-Patch.jar",
+            "hash": "9eec6a3c9c01b022cba3708706b679d8bd6a5cf4"
         },
         {
-            "path": "mods/kaleidoscope_dim_wine-1.5.3-mc1.21.1-neoforge.jar",
-            "hash": "bcacdab9ba6d2117eccad6f4480e1de652c261e8"
+            "path": "mods/kaleidoscope_dim_wine-1.5.6-mc1.21.1-neoforge.jar",
+            "hash": "6efac3c3004cdd3d6186bfeed57b6a34f24b7753"
         },
         {
             "path": "mods/kaleidoscope_end-1.0.14-neoforge+mc1.21.1.jar",
@@ -1000,16 +1000,16 @@
             "hash": "3e7db03ea2eb3d5e8d94d19ce50e21e5541fcae2"
         },
         {
-            "path": "mods/kaleidoscope_sculk-1.2.jar",
-            "hash": "ce46dad3264ec433f2e320c0b1ab90be14357616"
+            "path": "mods/kaleidoscope_sculk-1.21.1-1.3.0.jar",
+            "hash": "7bfffab75641d5821b409eb5cbe17106c4b1f3eb"
         },
         {
-            "path": "mods/kaleidoscope_world_liquor-1.1.8-neoforge+1.21.1.jar",
-            "hash": "4f0c5ec57881f67bec43e5c0b8222e0ea8c6437f"
+            "path": "mods/kaleidoscope_world_liquor-1.1.8-neoforge+1.21.1-feature.jar",
+            "hash": "f78d0f2ccdf2f812ffdd0090a4a6fda930d40df5"
         },
         {
-            "path": "mods/kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar",
-            "hash": "a08a4436ebfebee7b56beb776ea8aada489ee0ab"
+            "path": "mods/kaleidoscopecookery-1.5.0-neoforge+mc1.21.1.jar",
+            "hash": "a08d431b4ef00be6122ccc5299fa8cf720bd5af5"
         },
         {
             "path": "mods/kaleidoscopedoll-1.4.1-neoforge+mc1.21.1.jar",
@@ -1024,20 +1024,20 @@
             "hash": "d10d062caf1aad9aec82d7852f2fee1781735c1f"
         },
         {
-            "path": "mods/kubejs-neoforge-2101.7.2-build.374.jar",
-            "hash": "1e921f327c8c5c9d64b33326ede412d87bfbd491"
+            "path": "mods/kubejs-neoforge-2101.7.2-build.377.jar",
+            "hash": "7313fcd99318834c642ee9f3a05ed7fd7bcb6ef4"
         },
         {
-            "path": "mods/ldlib2-neoforge-1.21.1-2.2.37-all.jar",
-            "hash": "fd914403c69e451cd7446908d5730cac7412bf54"
+            "path": "mods/ldlib2-neoforge-1.21.1-2.2.40-all.jar",
+            "hash": "7e804a1dee102c28046a8dad0a48c8680943c781"
         },
         {
             "path": "mods/libIPN-neoforge-1.21.1-6.6.3.jar",
             "hash": "baab9e8cae3d2b77b5e172b5694e465ee9f30d4a"
         },
         {
-            "path": "mods/lithostitched-1.8.0+beta4-neoforge-21.1.jar",
-            "hash": "0edda78ec8500143cca898881c476b2b04dac75a"
+            "path": "mods/lithostitched-1.8.0+beta6-neoforge-21.1.jar",
+            "hash": "b8526bb7fcfb844ce91513ab349c408dd1a8279e"
         },
         {
             "path": "mods/liubai-1.0.1-1.21.1.jar",
@@ -1084,12 +1084,12 @@
             "hash": "a33085278f3e959421b78a41d36af08941a9e9bb"
         },
         {
-            "path": "mods/netmusic-1.5.1-neoforge+mc1.21.1.jar",
-            "hash": "2cfbef4586208b5a91bdeef75d7e3bc19a820d07"
+            "path": "mods/netmusic-1.5.2-neoforge+mc1.21.1.jar",
+            "hash": "8d272bb183986f734d0e414b3d5217ff780e08a4"
         },
         {
-            "path": "mods/notenoughanimations-neoforge-1.12.4-mc1.21.1.jar",
-            "hash": "b509863deaa27890f8db600f612966a07490a6cd"
+            "path": "mods/notenoughanimations-neoforge-1.12.6-mc1.21.1.jar",
+            "hash": "2098ae4965ebefb2dc8d5aec42a7d5282414fddc"
         },
         {
             "path": "mods/observable-5.4.4.jar",
@@ -1108,8 +1108,8 @@
             "hash": "c1acb64060602f5a9c7397224832d1ef75f9146b"
         },
         {
-            "path": "mods/open-parties-and-claims-neoforge-1.21.1-0.30.3.jar",
-            "hash": "07d0dc7f42ad988065b1280d1452f3fed00f3fba"
+            "path": "mods/open-parties-and-claims-neoforge-1.21.1-0.31.6.jar",
+            "hash": "6d0ebc84bbb75322cb0ab45ffef6a54d3bc6adef"
         },
         {
             "path": "mods/pfsable-1.0.jar",
@@ -1124,12 +1124,12 @@
             "hash": "6dc6134a0dffc6339ae6525d2c0437a03dcbb39b"
         },
         {
-            "path": "mods/polymorph-neoforge-1.1.0+1.21.1.jar",
-            "hash": "84f8c539fa326dc723ae62b7a6916d6b01982d07"
+            "path": "mods/polymorph-neoforge-1.2.0+1.21.1.jar",
+            "hash": "fa6c5fa8a21229c85d564b47c73df7160b3bd4df"
         },
         {
-            "path": "mods/powergrid-mc1.21.1-0.6.1.jar",
-            "hash": "bb0139368f141b0d3a60707ef81c8e010cc72df9"
+            "path": "mods/powergrid-mc1.21.1-0.6.2.jar",
+            "hash": "e09452dac8202e31f282149d45c49dcdb218bd54"
         },
         {
             "path": "mods/railways-0.3.0-beta.2+neoforge-mc1.21.1.jar",
@@ -1156,16 +1156,16 @@
             "hash": "4f33a1ce8f4c241afe0963d7c96e2d612cc62ee1"
         },
         {
-            "path": "mods/sclp-neoforge-3.17.7.1.jar",
-            "hash": "307cda73c92152f1dc0df3d5caf0f7abdf7f9d3f"
+            "path": "mods/sclp-neoforge-3.17.8.jar",
+            "hash": "8cb8ee40055762a4532a887d61a9d6a513a63063"
         },
         {
             "path": "mods/searchonmcmod-neoforge-1.21-1.21.8-0.1.0.jar",
             "hash": "e81eb6a6c1db508e5d81387294762583ad52947f"
         },
         {
-            "path": "mods/serverwarashi-1.21.1-2.1.0.1.jar",
-            "hash": "9a2b4fb635ec32bf5c0d79cd03c63005ff5971a4"
+            "path": "mods/serverwarashi-1.21.1-2.1.1.2.jar",
+            "hash": "ab6c55ab7b9f124c5287bbba318fb6fb5ccbb2f4"
         },
         {
             "path": "mods/simulatedcoasters-0.1.5.jar",
@@ -1192,8 +1192,8 @@
             "hash": "3b3dfa037f4766c00bb78634eb3b4ba1c7575268"
         },
         {
-            "path": "mods/tectonic-3.0.26-neoforge-21.1.jar",
-            "hash": "3114da043f1b54fe32b2801266a27a8f477d7325"
+            "path": "mods/tectonic-3.0.28-neoforge-21.1.jar",
+            "hash": "db15156eec4320c2997c4dd4948119472de01224"
         },
         {
             "path": "mods/tide-neoforge-1.21.1-2.1.1.jar",
@@ -1216,8 +1216,8 @@
             "hash": "ce09d0128e6a7d225e731e1307f9c1deddac209a"
         },
         {
-            "path": "mods/travelersbackpack-neoforge-1.21.1-10.1.38.jar",
-            "hash": "99394dd89892a7eb13650c15931568246ba74305"
+            "path": "mods/travelersbackpack-neoforge-1.21.1-10.1.39.jar",
+            "hash": "4fe7a8d15085f40d45f1555330b2826478ebc484"
         },
         {
             "path": "mods/tweakerge-0.4.3+mc1.21.1.jar",
@@ -1244,12 +1244,12 @@
             "hash": "bc18f6434325412430550260c7fd0b4d272c3fbf"
         },
         {
-            "path": "mods/xaerominimap-neoforge-1.21.1-26.4.2.jar",
-            "hash": "21b3232e62dabcbb5bf28866481e8de2c0ccb780"
+            "path": "mods/xaerominimap-neoforge-1.21.1-26.5.0.jar",
+            "hash": "7553dddbe478d1c8c15198090217e723d27f79c4"
         },
         {
-            "path": "mods/xaeroworldmap-neoforge-1.21.1-1.45.0.jar",
-            "hash": "f243d6877ab32333f27bf27ad1e9eb600361e6aa"
+            "path": "mods/xaeroworldmap-neoforge-1.21.1-1.46.0.jar",
+            "hash": "82b4ae6c0f2e13f02cbdc1325342909ed083fc24"
         },
         {
             "path": "mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
