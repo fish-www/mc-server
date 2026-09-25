@@ -336,10 +336,6 @@
             "hash": "3a1829a5785e59da0a3a338c4441a50a5acc59e8"
         },
         {
-            "path": "kubejs/assets/sereneseasons/lang/zh_cn.json",
-            "hash": "fbf1a20f9146143e8d34b39583f8fa076db95ac7"
-        },
-        {
             "path": "kubejs/assets/simulatedcoasters/lang/zh_cn.json",
             "hash": "83c99b84537eda0f8f81c86eefbd9068c0a9d7cd"
         },
@@ -618,10 +614,6 @@
         {
             "path": "mods/SSRD-1.8.6-1.21.1.jar",
             "hash": "7823e9f1b6c7c75aaa4d85eafd63f0bbabc86268"
-        },
-        {
-            "path": "mods/SereneSeasons-neoforge-1.21.1-10.1.0.9.jar",
-            "hash": "6b98eb4e64344bb8aba424187ed08bf04e59dccf"
         },
         {
             "path": "mods/SiliconeDolls-neoforge-1.21.1-1.0.0+build.65.jar",
