@@ -772,10 +772,6 @@
             "hash": "d69b9e98e957418ca0ab768b79983e68ffbfcd49"
         },
         {
-            "path": "mods/aotake_sweep-neoforge-1.21.1-1.1.1.jar",
-            "hash": "4af113e160a28b3f570b6e0d0e1e757183be3288"
-        },
-        {
             "path": "mods/appleskin-neoforge-mc1.21-3.0.9.jar",
             "hash": "81cf0e668f991f83ac8820c386fbd6c9c3602246"
         },
@@ -1258,6 +1254,10 @@
         {
             "path": "mods/railways-0.3.0-beta.2+neoforge-mc1.21.1.jar",
             "hash": "82a28ce51fdbc583477d7ae7c4c94cc6d23ec2b4"
+        },
+        {
+            "path": "mods/recyclingservice-2.4.3.jar",
+            "hash": "ed6aa2c5c8a3889a14e6893ac00ecda371b5854b"
         },
         {
             "path": "mods/rhino-2101.2.8-build.91.jar",
