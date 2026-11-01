@@ -56,6 +56,10 @@
             "hash": "85f9b30066235517b991d0c501f6df256cef8eb0"
         },
         {
+            "path": "config/natures_spirit-common.toml",
+            "hash": "a999710a099ba1ca90d7bc04e034fd88a0f6fd1f"
+        },
+        {
             "path": "config/oei/common.json",
             "hash": "2263d24e10355cfc1073f0c08c2c6cfd409dacb0"
         },
