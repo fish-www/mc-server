@@ -29,8 +29,6 @@
 [Crop]
 	#Restrict plant growth based on their compatible seasons.
 	EnableSeasonalCrop = true
-	#Apply patch withering code for crop leave blocks if tick failed.
-	CropLeavesPatch = true
 	#Smooths out humidity changes between different areas or time periods.
 	CropHumidityTransition = true
 	#Bone meal may fail under unsuitable growing conditions.
@@ -59,10 +57,6 @@
 	HumidityTankRange = 4.5
 	#Restrict plant growth based on local environmental humidity.
 	EnableCropHumidityControl = true
-	#The horizontal detection radius for the Greenhouse.
-	# Default: 32
-	# Range: 5 ~ 256
-	GreenHouseMaxDiameter = 256
 	#Show a message if bone meal fails to work due to incorrect season or humidity.
 	BoneMealFailureMessage = true
 	#The vertical detection height for the Greenhouse.
@@ -73,21 +67,27 @@
 	# Default: 500
 	# Range: > 5
 	SeasonalPrayerRitualCropBonusReduction = 500
+	#Adjusts the greenhouse structure detection mode. Higher accuracy modes check more directions, while top-only mode only requires overhead coverage.
+	#Allowed Values: FULL, BASIC, TOP_ONLY
+	GreenHouseCheckMode = "FULL"
 	#Simplifies greenhouse logic, removing the need for core blocks or humidity modifiers.
 	SimpleGreenHouseMode = false
 	#If true, the Humidifier block will not consume resources during operation.
 	NoCostHumidifier = false
 	#[Deprecated] Use default seasonal/humidity values for unregistered crops.
 	RegisterCropDefaultValue = false
-	#Use Manhattan distance (square) instead of Euclidean (circle) for greenhouse range.
-	UseBoxDistance = true
 	#Saves local humidity data to chunk files for persistent tracking.
 	SaveChunkEnvironmentalHumidity = true
 	#Whether Wandering Traders can sell Seasonal Greenhouse Essence.
 	WanderingTraderSellsGreenhouseEssence = true
-	#Adjusts the greenhouse structure detection mode. Higher accuracy modes check more directions, while top-only mode only requires overhead coverage.
-	#Allowed Values: FULL, BASIC, TOP_ONLY
-	GreenHouseCheckMode = "FULL"
+	#The horizontal detection radius for the Greenhouse.
+	# Default: 32
+	# Range: 5 ~ 256
+	GreenHouseMaxRadius = 256
+	#Use Manhattan distance (square) instead of Euclidean (circle) for greenhouse range.
+	UseSquareGreenHouseRange = true
+	#Apply patch withering code for crop leave blocks if tick failed.
+	ForceCompatCropLeafWithering = true
 
 #This module governs how seasonal temperature shifts affect the physical world and the player.
 [Temperature]
@@ -169,14 +169,14 @@
 	ModsWithoutSereneSeasonBasedHumidity = []
 
 [Resource]
-	#Aligns snowfall schedules based on three broad climate zones (Warm, Temperate, and Cold) instead of per-biome.
-	RegionalSnowTime = true
 	#When enabled, rivers are no longer treated as ignored climate zones. This reduces performance overhead but may result in less natural weather transitions near riverbanks.
 	IndependentRiverWeather = true
-	#Synchronizes the snowfall schedule for all Overworld biomes.
-	SnowTogether = false
 	#Enforces original Vanilla temperature and precipitation settings to prevent other mods from creating extreme environmental values.
 	VanillaBiomeClimateSettings = true
+	#Synchronizes the snowfall schedule for all Overworld biomes.
+	SynchronizedBiomeSnowfall = false
+	#Aligns snowfall schedules based on three broad climate zones (Warm, Temperate, and Cold) instead of per-biome.
+	ClimateZoneSnowfallTiming = true
 
 [Season]
 	#Daylight length in Ticks for each of the 6 Solar Terms in Summer.
@@ -198,8 +198,6 @@
 	# Default: 7
 	# Range: 1 ~ 5000
 	LastingDaysOfEachTerm = 7
-	#Synchronize the in-game calendar and seasonal data with the server/client local time.
-	EnableLocalInfoAndCalendar = false
 	#Sync in-game seasons with the real-world date.
 	#Warning: May cause day-counter or calendar conflicts with other mods.
 	RealWorldSolarTerms = false
@@ -223,6 +221,8 @@
 	# Default: 4
 	# Range: 1 ~ 24
 	InitialSolarTermIndex = 4
+	#Displays local seasonal and calendar information based on the agricultural climate zone of the current biome. Different regions may show different seasonal progress.
+	BiomeBasedLocalCalendar = false
 
 [Map]
 	#Only adjust map item colors to reflect visual snow overlays. Safer for mod compatibility.
