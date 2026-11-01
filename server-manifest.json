@@ -33,7 +33,7 @@
         },
         {
             "path": "config/create-server.toml",
-            "hash": "789f5d9f5438a3a511f1737cd90e4a02032430fd"
+            "hash": "04d4e05349923637f7ce0a83c8df2c64d431221d"
         },
         {
             "path": "config/create-stuff-additions.toml",
@@ -41,7 +41,7 @@
         },
         {
             "path": "config/eclipticseasons-common.toml",
-            "hash": "4b66e07c81f1852db4aac14355d2dd80ffa94a48"
+            "hash": "2b3cf1b3e3554134a09255ffaf71f35c37ac1b89"
         },
         {
             "path": "config/incontrol/spawn.json",
@@ -178,6 +178,10 @@
         {
             "path": "kubejs/assets/dragonlib/lang/zh_cn.json",
             "hash": "857abf18011cdcd025ecb895705fc34c2722efda"
+        },
+        {
+            "path": "kubejs/assets/drivebywire/lang/zh_cn.json",
+            "hash": "f4f95003a28755064ff584cf4832edbcaa0df67c"
         },
         {
             "path": "kubejs/assets/dynamic_fps/lang/zh_cn.json",
@@ -336,6 +340,10 @@
             "hash": "3a1829a5785e59da0a3a338c4441a50a5acc59e8"
         },
         {
+            "path": "kubejs/assets/sereneseasons/lang/zh_cn.json",
+            "hash": "fbf1a20f9146143e8d34b39583f8fa076db95ac7"
+        },
+        {
             "path": "kubejs/assets/simulatedcoasters/lang/zh_cn.json",
             "hash": "83c99b84537eda0f8f81c86eefbd9068c0a9d7cd"
         },
@@ -432,8 +440,68 @@
             "hash": "346602c8a52eb6f0813fc51fc8320ecdb1c158c5"
         },
         {
+            "path": "kubejs/server_scripts/drilling/coal.json",
+            "hash": "488ddc6a5f96f3720382ea10d642ed1e024d100a"
+        },
+        {
+            "path": "kubejs/server_scripts/drilling/copper.json",
+            "hash": "09ad94760a5b21f1a44e31e6d0b7c247a029f78a"
+        },
+        {
+            "path": "kubejs/server_scripts/drilling/diamond.json",
+            "hash": "5713e3b446db336de3b16748557ec9131ab391e0"
+        },
+        {
+            "path": "kubejs/server_scripts/drilling/emerald.json",
+            "hash": "c8174a607d76e126081504e7aa609ad4c5de02ba"
+        },
+        {
+            "path": "kubejs/server_scripts/drilling/glowstone.json",
+            "hash": "e73fb84104cdf3477c0f18239675324f04365ae9"
+        },
+        {
+            "path": "kubejs/server_scripts/drilling/gold.json",
+            "hash": "a7ba18c908a23f9c6bd2dd63993941445998977f"
+        },
+        {
+            "path": "kubejs/server_scripts/drilling/hardened_diamond.json",
+            "hash": "54b60544ed791275513134860b0b256a234f9604"
+        },
+        {
+            "path": "kubejs/server_scripts/drilling/iron.json",
+            "hash": "6f3afc8803df44b2ee7a4d5d5b2676686f87cf48"
+        },
+        {
+            "path": "kubejs/server_scripts/drilling/lapis.json",
+            "hash": "7118ca364fee3b5f324b131bd7128630d1ecfd06"
+        },
+        {
+            "path": "kubejs/server_scripts/drilling/nether_gold.json",
+            "hash": "39828dcfe79734f7b4377454fd3cfc0da77c6b1b"
+        },
+        {
+            "path": "kubejs/server_scripts/drilling/netherite.json",
+            "hash": "780902f6bdc6d31f6384457a3cc44c46aedb2dbf"
+        },
+        {
+            "path": "kubejs/server_scripts/drilling/quartz.json",
+            "hash": "5ca68db5f4a949783be927ca0a45bc811cc46a6a"
+        },
+        {
+            "path": "kubejs/server_scripts/drilling/redstone.json",
+            "hash": "0308da0af5c376b3e17be83c86110539134e79c4"
+        },
+        {
+            "path": "kubejs/server_scripts/drilling/zinc.json",
+            "hash": "cb185108eab88d46f002c8ef30c53da1d1748e4f"
+        },
+        {
             "path": "kubejs/server_scripts/golden_dandelion.js",
             "hash": "8c2486ff6c8bfbd666c91dda172d77c0ec5520e1"
+        },
+        {
+            "path": "kubejs/server_scripts/loot.js",
+            "hash": "1afc9f7a204022f6773d9987e77af9e2284c4e65"
         },
         {
             "path": "kubejs/server_scripts/main.js",
@@ -444,12 +512,72 @@
             "hash": "2577d9ba6db5dec996b0b65ea43d0a98ef2ad54a"
         },
         {
+            "path": "kubejs/server_scripts/ore_vein_type/coal.json",
+            "hash": "bc8ac25d1727284fca130fb888bfec17dfd8f8f2"
+        },
+        {
+            "path": "kubejs/server_scripts/ore_vein_type/copper.json",
+            "hash": "9ea0f1f8f5d4e13539ad418aab010901d1aa36df"
+        },
+        {
+            "path": "kubejs/server_scripts/ore_vein_type/diamond.json",
+            "hash": "b212994f7db55d2813c07919775ed6908b4c76d3"
+        },
+        {
+            "path": "kubejs/server_scripts/ore_vein_type/emerald.json",
+            "hash": "33f4fb5525e60ffb9f6b4f6651817d6df2470c93"
+        },
+        {
+            "path": "kubejs/server_scripts/ore_vein_type/glowstone.json",
+            "hash": "675cdfba925a86c20910ef71ff24cfc63e5cd9f4"
+        },
+        {
+            "path": "kubejs/server_scripts/ore_vein_type/gold.json",
+            "hash": "f95c3a6a21c7b455b663617d0a772464577baa1c"
+        },
+        {
+            "path": "kubejs/server_scripts/ore_vein_type/hardened_diamond.json",
+            "hash": "d52b5e1f07804141ea87cb74e6ae16a55ea963ee"
+        },
+        {
+            "path": "kubejs/server_scripts/ore_vein_type/iron.json",
+            "hash": "14d8b861684e7eaeb49c6e6e872d3615f5d44ccf"
+        },
+        {
+            "path": "kubejs/server_scripts/ore_vein_type/lapis.json",
+            "hash": "9e8ee6e45691edcb3bbdb36cc3c0748b03ad7c71"
+        },
+        {
+            "path": "kubejs/server_scripts/ore_vein_type/nether_gold.json",
+            "hash": "eed924c7b306fb1be8ea0af1e1b529735fc7256a"
+        },
+        {
+            "path": "kubejs/server_scripts/ore_vein_type/netherite.json",
+            "hash": "e7c095839f22990a47e89c1d4102e294a62fde93"
+        },
+        {
+            "path": "kubejs/server_scripts/ore_vein_type/quartz.json",
+            "hash": "c9e55b6a57b91e8bb4c67e7d26035cc2cd77030d"
+        },
+        {
+            "path": "kubejs/server_scripts/ore_vein_type/redstone.json",
+            "hash": "2216318e5797f51c55d69be0f489bf8ab0b08196"
+        },
+        {
+            "path": "kubejs/server_scripts/ore_vein_type/water.json",
+            "hash": "3a1ca776ae3a315d2f3b9ba8a0b1d035edbc19d3"
+        },
+        {
+            "path": "kubejs/server_scripts/ore_vein_type/zinc.json",
+            "hash": "d9c284eb1d2815fae7f4c5039df29079b917310a"
+        },
+        {
             "path": "kubejs/server_scripts/recipe_enchanted_golden_apple.js",
             "hash": "2c717d79735fe51b8a2910f58a0515be372feedd"
         },
         {
             "path": "kubejs/server_scripts/recipes_create.js",
-            "hash": "6e4a0c7ce9860a37da71561bcca8933675436ecf"
+            "hash": "2a75882185bacd33e227a792b268c8fcf7ea80ae"
         },
         {
             "path": "kubejs/server_scripts/recipes_ore.js",
@@ -457,7 +585,11 @@
         },
         {
             "path": "kubejs/server_scripts/recipes_tf.js",
-            "hash": "5a4d2d7b9b0f4ae53091f9712ebe54d33e019a36"
+            "hash": "3872238e07b7b3f94e3b9aef6be7389883d0ceab"
+        },
+        {
+            "path": "kubejs/server_scripts/recipes_yuushya.js",
+            "hash": "ffbc56196c6974f62c6badd041e345cee1501fe1"
         },
         {
             "path": "kubejs/startup_scripts/dragon_head.js",
