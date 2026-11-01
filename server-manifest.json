@@ -340,10 +340,6 @@
             "hash": "3a1829a5785e59da0a3a338c4441a50a5acc59e8"
         },
         {
-            "path": "kubejs/assets/sereneseasons/lang/zh_cn.json",
-            "hash": "fbf1a20f9146143e8d34b39583f8fa076db95ac7"
-        },
-        {
             "path": "kubejs/assets/simulatedcoasters/lang/zh_cn.json",
             "hash": "83c99b84537eda0f8f81c86eefbd9068c0a9d7cd"
         },
@@ -1010,10 +1006,6 @@
         {
             "path": "mods/dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
             "hash": "35b17e95b2b65930116ccc83e0cc358ac1bfcf9e"
-        },
-        {
-            "path": "mods/ecliptic-seasons-serene-api-bridge-1.21.1-neoforge-10.1.0.3-patch11-1.jar",
-            "hash": "370b428a00a0f15da161355f1b0585d2b2f3d87e"
         },
         {
             "path": "mods/ends_delight-2.6.1+neoforge.1.21.1.jar",

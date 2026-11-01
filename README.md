@@ -121,6 +121,13 @@ http://<此处插入地址>/modpack-lite/server-manifest.json
 
 确定后即可自动下载导入，实例每次启动之后都会自动更新
 
+## 目录结构
+
+- `server/`：服务端文件，同时存放服务端与客户端通用的文件（`mods/`、`config/`、`kubejs/` 等）
+- `client/`：仅客户端的文件，按包内相同路径存放（如 `client/mods/neo-voxy-*.jar`）
+- 生成/更新 `server-manifest.json` 时，同一条包内路径先找 `client/`，找不到再找 `server/`
+- `.packignore`：永远不进客户端整合包的路径（服务端运行时 `world/`、`logs/` 等）
+
 ## 贡献
 
 `server-manifest.json` 中包含了客户端整合包中的所有文件（路径及其 sha1sum）
@@ -128,7 +135,17 @@ http://<此处插入地址>/modpack-lite/server-manifest.json
 有相关改动时，用 `scripts/update-manifest.py` 同步清单（自动刷新 hash / 新增条目 / 删除失效条目，并自动去重排序）：
 
 ```bash
-python3 scripts/update-manifest.py server/config/xxx.json
+python3 scripts/update-manifest.py .                # 全量刷新
+python3 scripts/update-manifest.py kubejs/ mods/     # 按前缀刷新
+python3 scripts/update-manifest.py --add-new mods/   # 把该前缀下的新文件加入清单
+python3 scripts/update-manifest.py --check .         # 只看会改什么，不写盘
 ```
 
-也可以直接编辑 `server-manifest.json` 的 `files` 列表，然后跑 `scripts/dedup-manifest.py` 确保内容不重复且有序
+`server/mods` 要跟客户端 mod 版本对齐时，用 `scripts/sync-server-mods.py`
+（默认 `--template server/mods --source client/mods --out mods-new`，加 `--dry-run` 先看差异）：
+
+```bash
+python3 scripts/sync-server-mods.py --dry-run
+```
+
+上传整合包到 r2 时执行 `./r2.sh`（按 manifest 从 `client/`、`server/` 两侧取文件）

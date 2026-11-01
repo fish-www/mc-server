@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """Build an up-to-date copy of the server-side mods directory.
 
-The server mods directory is a subset of the client modpack: it keeps the mods
-the server needs (including server-only ones) but should have the same mod
-versions as the modpack. This script uses the server mods directory as the
-template for WHICH mods to keep, the modpack mods directory as the source of
-the newest versions, and writes the result to an output directory:
+client/ is the client-only overlay, server/ is the server's own files. The
+server mods directory keeps the mods the server needs (including mods shared
+with the client) but should have the same mod versions as the client, so this
+script uses the server mods directory as the template for WHICH mods to keep,
+the client mods directory as the source of the newest versions, and writes the
+result to an output directory:
 
-    --template  mods          which mods to keep (their versions are ignored)
-    --source    server/mods   newest version of every mod
+    --template  server/mods   which mods to keep (their versions are ignored)
+    --source    client/mods   newest version of every mod
     --out       mods-new      result, recreated from scratch
 
 Mods are matched per mod, so a version bump swaps the copied file but never
@@ -25,7 +26,7 @@ check the mapping. This is only needed for renames the matching rules cannot
 recognise.
 
 Usage:
-    python3 scripts/sync-server-mods.py [--template mods] [--source server/mods]
+    python3 scripts/sync-server-mods.py [--template server/mods] [--source client/mods]
                                         [--out mods-new] [--diff REV] [--dry-run]
     python3 scripts/sync-server-mods.py --selftest
 """
@@ -375,10 +376,10 @@ def selftest() -> int:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument("--template", default=os.path.join(ROOT, "mods"),
-                        help="server mods directory: which mods to keep (default: mods)")
-    parser.add_argument("--source", default=os.path.join(ROOT, "server", "mods"),
-                        help="modpack mods directory: newest versions (default: server/mods)")
+    parser.add_argument("--template", default=os.path.join(ROOT, "server", "mods"),
+                        help="server mods directory: which mods to keep (default: server/mods)")
+    parser.add_argument("--source", default=os.path.join(ROOT, "client", "mods"),
+                        help="client mods directory: newest versions (default: client/mods)")
     parser.add_argument("--out", default=os.path.join(ROOT, "mods-new"),
                         help="output directory, recreated from scratch (default: mods-new)")
     parser.add_argument("--dry-run", action="store_true", help="only print what would be done")

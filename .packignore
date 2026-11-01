@@ -1,0 +1,15 @@
+# 永远不进客户端整合包的路径（包内相对路径，`#` 起注释，目录以 / 结尾）
+# 由 scripts/update-manifest.py --add-new 时读取；详见该脚本文件头。
+
+# 服务端运行时
+world/
+logs/
+.voxy/
+xaero/
+eula.txt
+run.sh
+user_jvm_args.txt
+server.properties
+
+# 仅服务端的 mod，不进客户端包
+mods/ServuxForged-0.2.2-mc1.21.1.jar
