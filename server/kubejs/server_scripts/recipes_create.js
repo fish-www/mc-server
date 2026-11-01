@@ -925,6 +925,9 @@ ServerEvents.recipes(event => {
         });
     }
 
+    // 移除岩浆块的其他粉碎配方
+    event.remove([{ type: 'create:crushing', input: 'minecraft:magma_block' }])
+
     // 岩浆块，粉碎，产出 1 岩浆膏，75% 额外产出 1 岩浆膏
     event.custom({
         type: 'create:crushing',
