@@ -141,11 +141,20 @@ python3 scripts/update-manifest.py --add-new mods/   # 把该前缀下的新文�
 python3 scripts/update-manifest.py --check .         # 只看会改什么，不写盘
 ```
 
-`server/mods` 要跟客户端 mod 版本对齐时，用 `scripts/sync-server-mods.py`
-（默认 `--template server/mods --source client/mods --out mods-new`，加 `--dry-run` 先看差异）：
+更新 mod 时，把更新后的客户端 mods 目录交给 `scripts/apply-mod-updates.py`：它按 jar 里的 modId
+把文件拆到 `server/mods` 与 `client/mods`（服务端独有 mod 原样保留，`--add-server` 强制进服务端，
+`--exclude` 两侧都不要）。默认只预演，`--apply` 才写盘，写盘前把两个 mods 目录硬链接备份到仓根上一级：
 
 ```bash
-python3 scripts/sync-server-mods.py --dry-run
+python3 scripts/apply-mod-updates.py --source ~/.minecraft/versions/aer-temp/mods
+python3 scripts/apply-mod-updates.py --source <目录> --add-server handcrafted --apply
+```
+
+更新完同步清单：
+
+```bash
+python3 scripts/update-manifest.py .
+python3 scripts/update-manifest.py --add-new mods/
 ```
 
 上传整合包到 r2 时执行 `./r2.sh`（按 manifest 从 `client/`、`server/` 两侧取文件）
