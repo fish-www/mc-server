@@ -1,8 +1,8 @@
 {
     "name": "aer",
     "author": "fish",
-    "version": "1.5.0",
-    "description": "更新大量 mod；补充 kubejs 中文语言文件与整合包数据包（OEIBF、恒定气压）；恢复完整包的光影与航空学汉化资源包",
+    "version": "1.6.0",
+    "description": "neoforge 更新到 21.1.265；更新大量 mod；添加「机械动力：老吴学」、「精巧手艺」",
     "fileApi": "https://fish-share.fish-www.com/mc/aer/modpack",
     "addons": [
         {
